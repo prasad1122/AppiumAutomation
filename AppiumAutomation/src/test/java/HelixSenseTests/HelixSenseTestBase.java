@@ -67,15 +67,15 @@ public class HelixSenseTestBase {
 		extent.attachReporter(htmlReporter);
 	}
 	@BeforeMethod
-   //  @Parameters({ "udid", "platformVersion"})
-	public void testSetup(Method method ) throws InterruptedException, MalformedURLException {
+    @Parameters({ "udid", "platformVersion"})
+	public void testSetup(Method method ,String udid,String platformVersion) throws InterruptedException, MalformedURLException {
 		logger = Logger.getLogger(this.getClass().getSimpleName());
 		
 		logger.info("################# Starting " + method.getName() + " Test Case #################");
 		//startAppiumService(port);
 		    DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-		    desiredCapabilities.setCapability("udid","LFMBYDSGYXDQCIJF");
-		    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");
+		    desiredCapabilities.setCapability("udid",udid);
+		    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,platformVersion);
 	        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 	        desiredCapabilities.setCapability("appPackage", "com.hsensefm.live");
 	        desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET,true);

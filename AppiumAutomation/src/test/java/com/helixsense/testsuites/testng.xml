@@ -157,6 +157,15 @@
 		</classes>
     </test>
      
+      <test name="Visitor Management">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.VisitorManagamentCheckInTest" />
+		</classes>
+    </test>
     
   <test name="ValidateQRCodeTest">
          <parameter name="udid" value="emulator-5554"/>
