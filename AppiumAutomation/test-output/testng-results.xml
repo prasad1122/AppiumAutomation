@@ -2,68 +2,68 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60667" started-at="2022-03-02T12:21:43 IST" finished-at="2022-03-02T12:22:43 IST">
+  <suite name="Default suite" duration-ms="61795" started-at="2022-03-02T12:52:26 IST" finished-at="2022-03-02T12:53:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60667" started-at="2022-03-02T12:21:43 IST" finished-at="2022-03-02T12:22:43 IST">
-      <class name="HelixSenseTests.HelixSearchByQRCodeTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="beforeSuite" is-config="true" duration-ms="1164" started-at="2022-03-02T12:21:42 IST" finished-at="2022-03-02T12:21:43 IST">
+    <test name="Default test" duration-ms="61795" started-at="2022-03-02T12:52:26 IST" finished-at="2022-03-02T12:53:28 IST">
+      <class name="HelixSenseTests.ValidateQRCodeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="beforeSuite" is-config="true" duration-ms="1948" started-at="2022-03-02T12:52:24 IST" finished-at="2022-03-02T12:52:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="extentReportBeforeClass" is-config="true" duration-ms="6" started-at="2022-03-02T12:21:43 IST" finished-at="2022-03-02T12:21:43 IST">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="extentReportBeforeClass" is-config="true" duration-ms="9" started-at="2022-03-02T12:52:26 IST" finished-at="2022-03-02T12:52:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeClass -->
-        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="extentReportBeforeMethod" is-config="true" duration-ms="4" started-at="2022-03-02T12:21:43 IST" finished-at="2022-03-02T12:21:43 IST">
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="extentReportBeforeMethod" is-config="true" duration-ms="6" started-at="2022-03-02T12:52:26 IST" finished-at="2022-03-02T12:52:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.ValidateQRCodeTest.verifyQRCode() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeMethod -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="testSetup" is-config="true" duration-ms="21669" started-at="2022-03-02T12:21:43 IST" finished-at="2022-03-02T12:22:05 IST">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="testSetup" is-config="true" duration-ms="27529" started-at="2022-03-02T12:52:26 IST" finished-at="2022-03-02T12:52:54 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.ValidateQRCodeTest.verifyQRCode() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="verifyHelixSenseSearchByQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="verifyHelixSenseSearchByQR" duration-ms="36713" started-at="2022-03-02T12:22:05 IST" finished-at="2022-03-02T12:22:41 IST">
+        <test-method status="PASS" signature="verifyQRCode()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="verifyQRCode" duration-ms="31072" started-at="2022-03-02T12:52:54 IST" finished-at="2022-03-02T12:53:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHelixSenseSearchByQR -->
-        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="testCleanUp" is-config="true" duration-ms="1484" started-at="2022-03-02T12:22:41 IST" finished-at="2022-03-02T12:22:43 IST">
+        </test-method> <!-- verifyQRCode -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="testCleanUp" is-config="true" duration-ms="2203" started-at="2022-03-02T12:53:25 IST" finished-at="2022-03-02T12:53:27 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelixSenseSearchByQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQRCode status=SUCCESS method=ValidateQRCodeTest.verifyQRCode()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f]" name="extentReportAfterMethod" is-config="true" duration-ms="737" started-at="2022-03-02T12:22:43 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-02T12:22:43 IST">
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f]" name="extentReportAfterMethod" is-config="true" duration-ms="902" started-at="2022-03-02T12:53:27 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-02T12:53:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelixSenseSearchByQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@ad1f1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQRCode status=SUCCESS method=ValidateQRCodeTest.verifyQRCode()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@ad1f1f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportAfterMethod -->
-      </class> <!-- HelixSenseTests.HelixSearchByQRCodeTest -->
+      </class> <!-- HelixSenseTests.ValidateQRCodeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
