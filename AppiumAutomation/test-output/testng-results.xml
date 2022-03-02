@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43130" started-at="2022-03-02T18:13:27 IST" finished-at="2022-03-02T18:14:10 IST">
+  <suite name="Default suite" duration-ms="46007" started-at="2022-03-02T18:16:07 IST" finished-at="2022-03-02T18:16:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43130" started-at="2022-03-02T18:13:27 IST" finished-at="2022-03-02T18:14:10 IST">
+    <test name="Default test" duration-ms="46007" started-at="2022-03-02T18:16:07 IST" finished-at="2022-03-02T18:16:53 IST">
       <class name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="beforeSuite" is-config="true" duration-ms="1241" started-at="2022-03-02T18:13:26 IST" finished-at="2022-03-02T18:13:27 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="beforeSuite" is-config="true" duration-ms="1229" started-at="2022-03-02T18:16:06 IST" finished-at="2022-03-02T18:16:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="extentReportBeforeClass" is-config="true" duration-ms="6" started-at="2022-03-02T18:13:27 IST" finished-at="2022-03-02T18:13:27 IST">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="extentReportBeforeClass" is-config="true" duration-ms="7" started-at="2022-03-02T18:16:07 IST" finished-at="2022-03-02T18:16:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeClass -->
-        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="extentReportBeforeMethod" is-config="true" duration-ms="4" started-at="2022-03-02T18:13:27 IST" finished-at="2022-03-02T18:13:27 IST">
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="extentReportBeforeMethod" is-config="true" duration-ms="4" started-at="2022-03-02T18:16:07 IST" finished-at="2022-03-02T18:16:07 IST">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeMethod -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="testSetup" is-config="true" duration-ms="11425" started-at="2022-03-02T18:13:27 IST" finished-at="2022-03-02T18:13:38 IST">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="testSetup" is-config="true" duration-ms="11531" started-at="2022-03-02T18:16:07 IST" finished-at="2022-03-02T18:16:19 IST">
           <params>
             <param index="0">
               <value>
@@ -37,26 +37,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="verifyHelpdeskRaiseTicketByLocation" duration-ms="30428" started-at="2022-03-02T18:13:38 IST" finished-at="2022-03-02T18:14:09 IST">
+        <test-method status="FAIL" signature="verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="verifyHelpdeskRaiseTicketByLocation" duration-ms="32442" started-at="2022-03-02T18:16:19 IST" finished-at="2022-03-02T18:16:51 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR!New Ticket is not created and it is failed expected [false] but found [TestChairTicket63530191]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR!New Ticket is not created and it is failed expected [false] but found [TestChairTicket63530191]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at HelixSenseTests.HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation(HelpdeskRaiseTicketByLocationTest.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHelpdeskRaiseTicketByLocation -->
-        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="testCleanUp" is-config="true" duration-ms="561" started-at="2022-03-02T18:14:09 IST" finished-at="2022-03-02T18:14:09 IST">
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="testCleanUp" is-config="true" duration-ms="1337" started-at="2022-03-02T18:16:51 IST" finished-at="2022-03-02T18:16:53 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelpdeskRaiseTicketByLocation status=SUCCESS method=HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHelpdeskRaiseTicketByLocation status=FAILURE method=HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="extentReportAfterMethod" is-config="true" duration-ms="603" started-at="2022-03-02T18:14:09 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-02T18:14:10 IST">
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f]" name="extentReportAfterMethod" is-config="true" duration-ms="628" started-at="2022-03-02T18:16:53 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-02T18:16:53 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelpdeskRaiseTicketByLocation status=SUCCESS method=HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHelpdeskRaiseTicketByLocation status=FAILURE method=HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@ad1f1f] output={null}]]]>
               </value>
             </param>
           </params>
