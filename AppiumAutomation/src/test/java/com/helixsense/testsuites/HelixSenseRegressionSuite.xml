@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HelixSenseMobile">
+
+	<test name="Helix LogIn">
+		<classes>
+			<class
+				name="HelixSenseTests.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="Helix Asset by location">
+		<classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByLocationTest" />
+		</classes>
+	</test>
+	
+	<test name="Helix Asset by name">
+		<classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByNameTest" />
+		</classes>
+	</test>
+	
+	<test name="Validate Assests">
+		<classes>
+			<class
+				name="HelixSenseTests.ValidateAssestsTest" />
+		</classes>
+	</test>
+	
+	<test name="Helpdesk Asset By Location">
+		<classes>
+			<class
+				name="HelixSenseTests.HelpDeskSearchAssetByLocationTest" />
+		</classes>
+	</test>
+	
+	<test name="Helpdesk Asset By Name">
+		<classes>
+			<class
+				name="HelixSenseTests.HelpDeskAssetByNameTest" />
+		</classes>
+	</test>
+	
+	<test name="Helpdesk Tickets">
+		<classes>
+			<class
+				name="HelixSenseTests.HelpDeskTicketsTest" />
+		</classes>
+	</test>
+	<test name="Raise a  Ticket">
+		<classes>
+			<class
+				name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest" />
+		</classes>
+	</test>
+	
+	<test name="Raise a ticket for asset">
+		<classes>
+			<class
+				name="HelixSenseTests.RaiseATicketForAssetTest" />
+		</classes>
+	</test>
+	<test name="IncidentRaiseTicketByLocationTest">
+		<classes>
+			<class
+				name="HelixSenseTests.IncidentRaiseTicketByLocationTest" />
+		</classes>
+	</test>
+	
+</suite>
