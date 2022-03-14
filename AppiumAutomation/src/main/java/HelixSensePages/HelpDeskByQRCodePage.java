@@ -8,6 +8,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class HelpDeskByQRCodePage extends HelixsensePageBase {
+	
 	String description1="TestChairTicket";
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Helpdesk']")
@@ -25,7 +26,7 @@ public class HelpDeskByQRCodePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Select']")
     WebElement clickOnSelect;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/edt_desc")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_desc")
     WebElement description;
 	
 
@@ -38,7 +39,7 @@ public class HelpDeskByQRCodePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Go to New Tickets']")
     WebElement clickOnNewTickets;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/filter_search")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/filter_search")
     WebElement search;
 	 
 	@AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.AutoCompleteTextView")
@@ -59,7 +60,7 @@ public class HelpDeskByQRCodePage extends HelixsensePageBase {
 
 
 
-	public void AddQAScreen() throws InterruptedException {
+	public void raiseTicketwithHelpDeskUsingQR() throws InterruptedException {
 		clickOnHelpdesk.click();
 		clickOnSearchqrcode.click();
 		Thread.sleep(5000);
@@ -80,7 +81,7 @@ public class HelpDeskByQRCodePage extends HelixsensePageBase {
 		clickOnbutton.click();
 	}
 
-	public String getStatus() throws InterruptedException {
+	public String getActual() throws InterruptedException {
 				
 		Thread.sleep(4000);
 		return testChairTicket.get(2).getText();

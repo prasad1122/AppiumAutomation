@@ -73,19 +73,19 @@ public class HelixSenseTestBase {
 		
 		logger.info("################# Starting " + method.getName() + " Test Case #################");
 		//startAppiumService(port);
-		    DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-		    desiredCapabilities.setCapability("udid","LFMBYDSGYXDQCIJF");
-		    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");
-	        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-	        desiredCapabilities.setCapability("appPackage", "com.hsensefm.live");
-	        desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET,true);
-	       desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
-	        desiredCapabilities.setCapability("app", "C:\\Users\\Durga\\Downloads\\hsense_dev_build_1.3.3_170222_19_41.apk");  
-	      // threadLocalDriver.setTLDriver(new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities));
-	       //driver = threadLocalDriver.getTLDriver();
-	     URL remoteUrl = new URL("http://localhost:4723/wd/hub");
-	      driver = new AndroidDriver<MobileElement>(remoteUrl, desiredCapabilities);
-	        driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS) ;
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		 capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554"); 
+	        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+	        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+	        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+	        capabilities.setCapability(MobileCapabilityType.NO_RESET,true);
+	        capabilities.setCapability("appPackage", "com.app.hsense.compass");
+	        capabilities.setCapability(MobileCapabilityType.APP, "C:\\Users\\Durga\\Downloads\\hsense_sfx_dev_build_1.4.0_070322_13_19.apk");  
+		    //threadLocalDriver.setTLDriver(new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), capabilities));
+		     //driver = threadLocalDriver.getTLDriver();
+		     URL remoteUrl = new URL("http://localhost:4723/wd/hub");
+		     driver = new AndroidDriver<MobileElement>(remoteUrl, capabilities); 
+		     driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS) ;
 		    loginpage=new HelixSenseLoginPage(driver);
 	        //loginpage.login(testConfig.getProperty("username"), testConfig.getProperty("password"));
 			logger.info("Verifying the login for account: " + testConfig.getProperty("username") + ","
