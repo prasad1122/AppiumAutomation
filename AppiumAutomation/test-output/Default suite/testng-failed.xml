@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest">
+      <class name="HelixSenseTests.HelpDeskByQRCodeTest">
         <methods>
           <include name="extentReportBeforeMethod"/>
           <include name="testSetup"/>
           <include name="extentReportBeforeClass"/>
+          <include name="verifyHelpDeskRaiseaTicketByQRCode"/>
           <include name="extentReportAfterMethod"/>
-          <include name="verifyHelpdeskRaiseTicketByLocation"/>
           <include name="testCleanUp"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- HelixSenseTests.HelpdeskRaiseTicketByLocationTest -->
+      </class> <!-- HelixSenseTests.HelpDeskByQRCodeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
