@@ -24,6 +24,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
 import io.appium.java_client.android.AndroidDriver;
 
 
@@ -38,6 +39,7 @@ public class WebDriverManagers {
 	public static void getScreenshot(WebDriver driver, String filePath) throws IOException {
 		File imgFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		Files.copy(imgFile.toPath(), Paths.get(filePath));
+		
 	}
 
 	public static boolean isElementPresent(WebDriver driver, By by) {

@@ -37,8 +37,10 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='CONTINUE']")
     WebElement clickOnButton;
 
+	@AndroidFindBy (id= "com.app.hsense.compass:id/btn_asset_operation")
+    WebElement clickReplace;
 
-	@AndroidFindBy (id = "com.hsensefm.live:id/btn_asset_ok_operation")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/btn_asset_ok_operation")
     WebElement clickOnOk;
 	
 	@AndroidFindBy (className= "android.widget.TextView")
@@ -58,6 +60,26 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Scrapped']")
     WebElement scrapped;
+	
+	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Operative']")
+    WebElement getTextOperative;
+	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Move']")
+    WebElement clickonMove;
+	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Replace']")
+    WebElement clickonReplace;
+	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Scan QR Code']")
+    WebElement clickonQR;
+	
+	@AndroidFindBy (id= "com.app.hsense.compass:id/btn_asset_ok_operation")
+    WebElement clickOnOKAY;
+	
+	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Asset Replaced']")
+    WebElement assetReplaced;
 	
 	public AssetRegistryActionsPage(AndroidDriver driver) {
 		super(driver);
@@ -86,7 +108,7 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	public void verifyAssetIsPresent() throws InterruptedException {
 		// TODO Auto-generated method stub
 		Thread.sleep(2000);
-		driver.findElement(By.id("com.hsensefm.live:id/img_asset_details_back")).click();
+		driver.findElement(By.id("com.app.hsense.compass:id/img_asset_details_back")).click();
 		clickOnImage.click();
 		
 	}
@@ -149,6 +171,50 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	public boolean getStatusScrap() {
 		// TODO Auto-generated method stub
 		return scrapped.isDisplayed();
+	}
+
+
+	public void MovetoLocation() {
+		clickOnAssetRegistry.click();
+		clickOnOperativeAssests.click();
+		clickOnImage.click();
+		clickOnArrow.click();
+		clickonMove.click();
+		
+		clickonQR.click();
+		
+		clickOnButton.click();
+		
+	}
+
+
+	public void Replace() {
+		
+		clickOnAssetRegistry.click();
+		clickOnOperativeAssests.click();
+		clickOnImage.click();
+		clickOnArrow.click();
+		clickonReplace.click();
+		clickReplace.click();
+		
+	}
+
+
+	public boolean getStatusReplace() {
+		// TODO Auto-generated method stub
+		return assetReplaced.isDisplayed();
+	}
+
+
+	public void clickOkButton() {
+		clickOnOKAY.click();
+		
+	}
+
+
+	public boolean getStatusOperative() {
+		// TODO Auto-generated method stub
+		return getTextOperative.isDisplayed();
 	}
 
 }

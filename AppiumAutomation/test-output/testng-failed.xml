@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [HelixSenseMobile]">
-  <test thread-count="5" name="HelpdeskRaiseTicketByLocationTest(failed)">
-    <parameter name="platformVersion" value="11"/>
-    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest">
         <methods>
@@ -17,5 +15,5 @@
         </methods>
       </class> <!-- HelixSenseTests.HelpdeskRaiseTicketByLocationTest -->
     </classes>
-  </test> <!-- HelpdeskRaiseTicketByLocationTest(failed) -->
-</suite> <!-- Failed suite [HelixSenseMobile] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -54,5 +54,26 @@ public class AssetRegistryActionsTest extends HelixSenseTestBase {
 		Assert.assertTrue(status2,"ERROR!failed");
 		testReport.info("Validate AssetRegistry Is Moving To Scrapped");
 	}
-
+	
+	@Test(priority = 5)
+	public void verifyAssetRegistryMoveToAnotherLocation() throws InterruptedException
+	{
+		assetRegistryActionsPage=new AssetRegistryActionsPage(driver);
+		assetRegistryActionsPage.MovetoLocation();
+		boolean status3=assetRegistryActionsPage.getStatusOperative();
+		Assert.assertTrue(status3,"ERROR!failed");
+		testReport.info("Validate AssetRegistry Move To Another Location");
+		
+	}
+	
+	@Test(priority = 6)
+	public void verifyAssetRegistryIsReplaced() throws InterruptedException
+	{
+		assetRegistryActionsPage=new AssetRegistryActionsPage(driver);
+		assetRegistryActionsPage.Replace();
+		boolean status5=assetRegistryActionsPage.getStatusReplace();
+		Assert.assertTrue(status5,"ERROR!failed");
+		assetRegistryActionsPage.clickOkButton();
+		testReport.info("Validate AssetRegistry Is Replaced");
+	}
 }
