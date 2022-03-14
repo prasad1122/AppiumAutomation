@@ -21,6 +21,7 @@ public class VisitorManagamentCheckInPage extends HelixsensePageBase
 		
 	}
 
+	
 	public void AddCheckIn() {
 		
 		clickonVisitorManagement.click();

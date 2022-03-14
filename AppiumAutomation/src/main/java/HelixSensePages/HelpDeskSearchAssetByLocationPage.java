@@ -50,5 +50,6 @@ public class HelpDeskSearchAssetByLocationPage extends HelixsensePageBase{
 		// TODO Auto-generated method stub
 		return clickOnFurniture.isDisplayed();
 	}
+	
 
 }

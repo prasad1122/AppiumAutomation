@@ -14,7 +14,6 @@ public class HelpDeskByQRCodeTest extends HelixSenseTestBase{
 	{
 		helpDeskQRCode=new HelpDeskByQRCodePage(driver);
 		helpDeskQRCode.raiseTicketwithHelpDeskUsingQR();
-		
 		String Actual=helpDeskQRCode.getActual();
 		String Excepted=helpDeskQRCode.getExcepted();
 		Assert.assertEquals(Actual, Excepted,"ERROR!HelpDesk Raise a Ticket Using QR Code failed");

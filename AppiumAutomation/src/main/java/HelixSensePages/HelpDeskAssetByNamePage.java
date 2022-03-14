@@ -29,7 +29,7 @@ public class HelpDeskAssetByNamePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Select']")
     WebElement clickOnSelect;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/edt_desc")
+	@AndroidFindBy (id = "com.app.hsense.compass/edt_desc")
     WebElement description;
 	
 
@@ -42,7 +42,7 @@ public class HelpDeskAssetByNamePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Go to New Tickets']")
     WebElement clickOnNewTickets;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/filter_search")
+	@AndroidFindBy (id = "com.app.hsense.compass/filter_search")
     WebElement search;
 	 
 	@AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText")

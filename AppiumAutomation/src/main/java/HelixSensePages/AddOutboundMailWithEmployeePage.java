@@ -48,7 +48,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Register Outbound']")
     WebElement clickonRegisterOutbound;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/edt_notes")
+	@AndroidFindBy (id = "com.app.hsense.compass/edt_notes")
     WebElement description;
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Alex']")
@@ -85,11 +85,11 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath= "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout")
     WebElement Dropdown;
 	
-	@AndroidFindBy (id= "com.hsensefm.live:id/layout_employee")
+	@AndroidFindBy (id= "com.app.hsense.compass/layout_employee")
     WebElement dropdownid;
 	
 
-	@AndroidFindBy (id= "com.hsensefm.live:id/signature_pad")
+	@AndroidFindBy (id= "com.app.hsense.compass/signature_pad")
     WebElement SignPad;
 	
 	public AddOutboundMailWithEmployeePage(AndroidDriver driver) {
@@ -211,7 +211,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 		.release()
 		.build();
 		drawAction.perform();
-		driver.findElement(By.id("com.hsensefm.live:id/btn_delivery")).click();
+		driver.findElement(By.id("com.app.hsense.compass/btn_delivery")).click();
 		
 	}
 

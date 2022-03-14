@@ -12,6 +12,7 @@ public class AssetRegistryByLocationPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Asset Registry']")
     WebElement clickOnAssetRegistry;
 
+	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Search Asset by Location']")
     WebElement clickOnSearchLocation;
 	

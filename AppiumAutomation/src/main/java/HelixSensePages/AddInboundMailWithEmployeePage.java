@@ -43,7 +43,7 @@ public class AddInboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Register Inbound']")
     WebElement clickonRegisterInbound;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/edt_notes")
+	@AndroidFindBy (id = "com.app.hsense.compass/edt_notes")
     WebElement description;
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Alex']")
@@ -80,7 +80,7 @@ public class AddInboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath= "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout")
     WebElement Dropdown;
 	
-	@AndroidFindBy (id= "com.hsensefm.live:id/layout_employee")
+	@AndroidFindBy (id= "com.app.hsense.compass/layout_employee")
     WebElement dropdownid;
 	
 	

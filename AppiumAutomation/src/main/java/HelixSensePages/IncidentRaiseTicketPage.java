@@ -34,7 +34,7 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Select']")
     WebElement clickOnSelect;
 	
-	@AndroidFindBy (id = "com.hsensefm.live:id/edt_desc")
+	@AndroidFindBy (id = "com.app.hsense.compass/edt_desc")
     WebElement description;
 	
 
@@ -63,11 +63,12 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 		scrollToExactElement("Incident Management");
 		
 		Thread.sleep(3000);
-		driver.findElementById("com.hsensefm.live:id/report_incidents_btn").click();
+		driver.findElementById("com.app.hsense.compass/report_incidents_btn").click();
 		clickOnSearchqrcode.click();
 		Thread.sleep(5000);
 		clickOnAccident.click();
 		clickOnAccident.click();
+		
 
 		clickOnFire.click();
 		clickOnSelect.click();

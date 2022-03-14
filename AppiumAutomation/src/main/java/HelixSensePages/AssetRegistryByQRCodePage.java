@@ -29,7 +29,7 @@ public class AssetRegistryByQRCodePage extends HelixsensePageBase{
     WebElement clickOnButton;
 
 
-	@AndroidFindBy (id = "com.hsensefm.live:id/btn_asset_ok_operation")
+	@AndroidFindBy (id = "com.app.hsense.compass/btn_asset_ok_operation")
     WebElement clickOnOk;
 
 	@AndroidFindBy (className = "android.widget.TextView")
