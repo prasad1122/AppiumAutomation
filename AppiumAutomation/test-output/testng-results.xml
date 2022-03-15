@@ -2,73 +2,73 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77409" started-at="2022-03-15T15:32:35 IST" finished-at="2022-03-15T15:33:53 IST">
+  <suite name="Default suite" duration-ms="50171" started-at="2022-03-15T17:38:20 IST" finished-at="2022-03-15T17:39:10 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77409" started-at="2022-03-15T15:32:35 IST" finished-at="2022-03-15T15:33:53 IST">
-      <class name="HelixSenseTests.HelpDeskByQRCodeTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="beforeSuite" is-config="true" duration-ms="1492" started-at="2022-03-15T15:32:34 IST" finished-at="2022-03-15T15:32:35 IST">
+    <test name="Default test" duration-ms="50171" started-at="2022-03-15T17:38:20 IST" finished-at="2022-03-15T17:39:10 IST">
+      <class name="HelixSenseTests.SmartLoggerTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="beforeSuite" is-config="true" duration-ms="1272" started-at="2022-03-15T17:38:19 IST" finished-at="2022-03-15T17:38:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="extentReportBeforeClass" is-config="true" duration-ms="8" started-at="2022-03-15T15:32:35 IST" finished-at="2022-03-15T15:32:35 IST">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="extentReportBeforeClass" is-config="true" duration-ms="6" started-at="2022-03-15T17:38:20 IST" finished-at="2022-03-15T17:38:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeClass -->
-        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="extentReportBeforeMethod" is-config="true" duration-ms="14" started-at="2022-03-15T15:32:35 IST" finished-at="2022-03-15T15:32:35 IST">
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="extentReportBeforeMethod" is-config="true" duration-ms="8" started-at="2022-03-15T17:38:20 IST" finished-at="2022-03-15T17:38:20 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeMethod -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="testSetup" is-config="true" duration-ms="29694" started-at="2022-03-15T15:32:35 IST" finished-at="2022-03-15T15:33:05 IST">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="testSetup" is-config="true" duration-ms="24581" started-at="2022-03-15T17:38:20 IST" finished-at="2022-03-15T17:38:45 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="verifyHelpDeskRaiseTicketyUsingQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="verifyHelpDeskRaiseTicketyUsingQRCode" duration-ms="45302" started-at="2022-03-15T15:33:05 IST" finished-at="2022-03-15T15:33:50 IST">
+        <test-method status="PASS" signature="verifySmartLoggerUsingQR()[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="verifySmartLoggerUsingQR" duration-ms="23340" started-at="2022-03-15T17:38:45 IST" finished-at="2022-03-15T17:39:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHelpDeskRaiseTicketyUsingQRCode -->
-        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="testCleanUp" is-config="true" duration-ms="1468" started-at="2022-03-15T15:33:50 IST" finished-at="2022-03-15T15:33:52 IST">
+        </test-method> <!-- verifySmartLoggerUsingQR -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="testCleanUp" is-config="true" duration-ms="1464" started-at="2022-03-15T17:39:08 IST" finished-at="2022-03-15T17:39:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelpDeskRaiseTicketyUsingQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247] output={null}]]]>
+                <![CDATA[[TestResult name=verifySmartLoggerUsingQR status=SUCCESS method=SmartLoggerTest.verifySmartLoggerUsingQR()[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="extentReportAfterMethod" is-config="true" duration-ms="857" started-at="2022-03-15T15:33:52 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-15T15:33:53 IST">
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247]" name="extentReportAfterMethod" is-config="true" duration-ms="716" started-at="2022-03-15T17:39:10 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-15T17:39:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelpDeskRaiseTicketyUsingQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247] output={null}]]]>
+                <![CDATA[[TestResult name=verifySmartLoggerUsingQR status=SUCCESS method=SmartLoggerTest.verifySmartLoggerUsingQR()[pri:0, instance:HelixSenseTests.SmartLoggerTest@12d3247] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportAfterMethod -->
-      </class> <!-- HelixSenseTests.HelpDeskByQRCodeTest -->
+      </class> <!-- HelixSenseTests.SmartLoggerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -114,8 +114,9 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	}
 
 
-	public String getVerifiedText() {
+	public String getVerifiedText() throws InterruptedException {
 		// TODO Auto-generated method stub
+		Thread.sleep(2000);
 		return Text.get(3).getText();
 	}
 
@@ -131,8 +132,9 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	}
 
 
-	public boolean getStatus() {
+	public boolean getStatus() throws InterruptedException {
 		// TODO Auto-generated method stub
+		Thread.sleep(2000);
 		return Warehouse.isDisplayed();
 	}
 
@@ -149,7 +151,8 @@ public class AssetRegistryActionsPage extends HelixsensePageBase {
 	}
 
 
-	public boolean getStatusBreakdown() {
+	public boolean getStatusBreakdown() throws InterruptedException {
+		Thread.sleep(2000);
 		// TODO Auto-generated method stub
 		return BreakDown.isDisplayed();
 	}

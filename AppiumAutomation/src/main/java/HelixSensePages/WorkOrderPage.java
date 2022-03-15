@@ -38,8 +38,9 @@ public class WorkOrderPage extends HelixsensePageBase {
 		
 	}
 
-	public boolean getStatus() {
+	public boolean getStatus() throws InterruptedException {
 		// TODO Auto-generated method stub
+		Thread.sleep(2000);
 		return clickOnWorkOrders.isDisplayed();
 	}
 
