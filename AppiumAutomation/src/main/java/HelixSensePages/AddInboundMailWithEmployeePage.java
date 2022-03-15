@@ -43,7 +43,7 @@ public class AddInboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Register Inbound']")
     WebElement clickonRegisterInbound;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_notes")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_notes")
     WebElement description;
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Alex']")
@@ -80,7 +80,7 @@ public class AddInboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath= "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout")
     WebElement Dropdown;
 	
-	@AndroidFindBy (id= "com.app.hsense.compass/layout_employee")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/layout_employee")
     WebElement dropdownid;
 	
 	
@@ -137,7 +137,7 @@ public class AddInboundMailWithEmployeePage extends HelixsensePageBase {
 		
 		Thread.sleep(4000);
 	}
-	public void scrollToExactElement(String str) {
+	public void scrollToExactElementFound(String str) {
         ((AndroidDriver<MobileElement>) driver).findElementByAndroidUIAutomator(
                 "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\""
                         + str + "\").instance(0))").click();
@@ -187,7 +187,7 @@ public class AddInboundMailWithEmployeePage extends HelixsensePageBase {
 		readyTodeliver.click();
 		registered.click();
 
-		scrollToExactElement("Deliver");
+		scrollToExactElementFound("Deliver");
 		
 		clickOnOkay.click();
 		

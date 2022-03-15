@@ -38,7 +38,7 @@ String description1="TestChairTicket";
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Select']")
     WebElement clickOnSelect;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_desc")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_desc")
     WebElement description;
 	
 
@@ -67,7 +67,7 @@ String description1="TestChairTicket";
 		Thread.sleep(4000);
 		//waitForVisible(driver,incidentManagement);
 		//incidentManagement.click();
-		driver.findElementById("com.app.hsense.compass/report_incidents_btn").click();
+		driver.findElementById("com.app.hsense.compass:id/report_incidents_btn").click();
 		clickOnSearchbyLocation.click();
 		Thread.sleep(5000);
 		clickOnBuilding.click();

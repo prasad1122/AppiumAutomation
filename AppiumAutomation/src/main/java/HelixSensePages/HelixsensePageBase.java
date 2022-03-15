@@ -52,10 +52,12 @@ public abstract  class HelixsensePageBase {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public void scrollToExactElement(String str) {
+	public String  scrollToExactElement(String str) {
         ((AndroidDriver<MobileElement>) driver).findElementByAndroidUIAutomator(
                 "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\""
-                        + str + "\").instance(0))").click();
+                        + str + "\").instance(0))").click();;
+        
+        return str;
     }
 
 }

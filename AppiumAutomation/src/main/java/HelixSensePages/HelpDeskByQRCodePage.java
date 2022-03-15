@@ -60,7 +60,7 @@ public class HelpDeskByQRCodePage extends HelixsensePageBase {
 
 
 
-	public void raiseTicketwithHelpDeskUsingQR() throws InterruptedException {
+	public void RaiseaTicketByQR() throws InterruptedException {
 		clickOnHelpdesk.click();
 		clickOnSearchqrcode.click();
 		Thread.sleep(5000);

@@ -1,18 +1,17 @@
 package HelixSensePages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class AssetRegistryByLocationPage extends HelixsensePageBase {
 
-	
+
+
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Asset Registry']")
     WebElement clickOnAssetRegistry;
 
-	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Search Asset by Location']")
     WebElement clickOnSearchLocation;
 	
@@ -34,17 +33,23 @@ public class AssetRegistryByLocationPage extends HelixsensePageBase {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void addAssetByLocation() throws InterruptedException {
+
+	public void addAssetByLocation(String building,String space) throws InterruptedException {
 		
 		waitForVisible(driver,clickOnAssetRegistry);
 		clickOnAssetRegistry.click();
 		Thread.sleep(3000);
 		waitForVisible(driver,clickOnSearchLocation);
 		clickOnSearchLocation.click();
-		clickOnBuilding.click();
-		clickOnSpaceB1.click();
+		building=scrollToExactElement(building);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='"+building+"']")).click();
+		space=scrollToExactElement(space);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='"+space+"']")).click();
+		//clickOnBuilding.click();
+		//clickOnSpaceB1.click();
 		clickedOnNext.click();
 		clickOnFurniture.click();
+		
 		
 	}
 

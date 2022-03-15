@@ -8,7 +8,6 @@ import HelixSensePages.AddOutboundMailWithEmployeePage;
 public class AddOutboundMailWithEmployeeTest extends HelixSenseTestBase
 {
 	
-	
 	AddOutboundMailWithEmployeePage addOutboundMailWithEmployeePage;
 	
 	@Test(priority=1)
@@ -22,9 +21,8 @@ public class AddOutboundMailWithEmployeeTest extends HelixSenseTestBase
 		Assert.assertTrue(status,"ERROR!failed");
 		addOutboundMailWithEmployeePage.clickokay();
 		testReport.info("Validate Add Outbound Mail With Employee");
-	
+		
 	}
-	
 	@Test(priority=2)
 	public void verifyWhetherOutboundisCreated() throws InterruptedException
 	{

@@ -9,11 +9,11 @@ public class HelpDeskSearchAssetByLocationTest extends HelixSenseTestBase {
 	
 	HelpDeskSearchAssetByLocationPage helpdesk;
 	
-	@Test
-	public void HelpDeskSearchAssetByLocation()
+	@Test(dataProvider = "dataProvider")
+	public void HelpDeskSearchAssetByLocation(String building,String space)
 	{
 		helpdesk=new HelpDeskSearchAssetByLocationPage(driver);
-		helpdesk.addAssetByLocation();
+		helpdesk.addAssetByLocation(building,space);
 		boolean status=helpdesk.getStatus();
 		Assert.assertTrue(status,"ERROR!  failed");
 		testReport.info("Validate Helpdesk Using SearchAssetByLocation ");

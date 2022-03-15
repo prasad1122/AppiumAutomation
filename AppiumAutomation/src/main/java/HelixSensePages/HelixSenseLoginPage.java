@@ -24,7 +24,7 @@ public class HelixSenseLoginPage extends HelixsensePageBase  {
     WebElement clickWhileUsingTheApp;
 	
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_account_id")
+	@AndroidFindBy (id = "com.hsensefm.live:id/edt_account_id")
     WebElement enterAccountId;
 	
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Next']")
@@ -36,7 +36,7 @@ public class HelixSenseLoginPage extends HelixsensePageBase  {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Login']")
     WebElement clickOnLogIn;
 
-	@AndroidFindBy (id = "com.app.hsense.compass/img_home")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/img_home")
     WebElement Statuslogin;
 
 	public HelixSenseLoginPage(AndroidDriver driver) {

@@ -18,7 +18,8 @@ public class HelpdeskRaiseTicketByLocationTest extends HelixSenseTestBase  {
 		raiseByLocationPage.addAssetByName();
 		String Actual=raiseByLocationPage.getStatus();
 		String Excepted=raiseByLocationPage.getExcepted();
-		Assert.assertEquals(Actual, "false","ERROR!New Ticket is not created and it is failed");
+		Assert.assertEquals(Actual, Excepted,"ERROR!New Ticket is not created and it is failed");
 		testReport.info("Validate HelpDesk Using SearchAssetByLocation");
+		
 	}
 }

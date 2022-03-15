@@ -9,7 +9,9 @@ public class AssetRegistryByQRScrapTest extends HelixSenseTestBase{
 	
 
 	AssetRegistryByQRScrapPage assertRegistryScrap;
-	@Test
+	
+	
+@Test
 public void verifyAssetRegistryByScrap() throws InterruptedException {
 		
 		assertRegistryScrap =new AssetRegistryByQRScrapPage(driver);

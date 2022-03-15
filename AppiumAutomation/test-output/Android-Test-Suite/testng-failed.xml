@@ -171,7 +171,7 @@
       </class> <!-- HelixSenseTests.HelpdeskRaiseTicketByLocationTest -->
     </classes>
   </test> <!-- HelpdeskRaiseTicketByLocationTest(failed) -->
-  <test thread-count="5" name="Inbound verification(failed)">
+  <test thread-count="5" name="Inbound verification with employee(failed)">
     <parameter name="platformVersion" value="11"/>
     <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
     <classes>
@@ -183,13 +183,195 @@
           <include name="extentReportBeforeClass"/>
           <include name="extentReportAfterMethod"/>
           <include name="verifyWhetherInboundisCreated"/>
+          <include name="verifyChangeStatusRegistrytoDelivery"/>
           <include name="testCleanUp"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- HelixSenseTests.AddInboundMailWithEmployeeTest -->
     </classes>
-  </test> <!-- Inbound verification(failed) -->
+  </test> <!-- Inbound verification with employee(failed) -->
+  <test thread-count="5" name="Inbound verification with department(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AddInboundMailWithDepartmentTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="verifyAddInboundMailWithDepartment"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AddInboundMailWithDepartmentTest -->
+    </classes>
+  </test> <!-- Inbound verification with department(failed) -->
+  <test thread-count="5" name="Outbound verification with employee(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AddOutboundMailWithDepartmentTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyAddOutboundMailWithDepartment"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AddOutboundMailWithDepartmentTest -->
+    </classes>
+  </test> <!-- Outbound verification with employee(failed) -->
+  <test thread-count="5" name="Outbound verification with department(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AddOutboundMailWithEmployeeTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="verifyAddOutboundMailWithEmployee"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyWhetherOutboundisCreated"/>
+          <include name="testCleanUp"/>
+          <include name="verifyChangeStatusReadytoDispatch"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AddOutboundMailWithEmployeeTest -->
+    </classes>
+  </test> <!-- Outbound verification with department(failed) -->
+  <test thread-count="5" name="Asset Registry Actions(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AssetRegistryActionsTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyAssetRegistryScrap"/>
+          <include name="verifyAssetRegistryMoveToAnotherLocation"/>
+          <include name="testCleanUp"/>
+          <include name="verifyAssetRegistryStoreWareHouse"/>
+          <include name="verifyAssetRegistryActions"/>
+          <include name="verifyAssetRegistryBreakdown"/>
+          <include name="beforeSuite"/>
+          <include name="verifyAssetRegistryIsReplaced"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AssetRegistryActionsTest -->
+    </classes>
+  </test> <!-- Asset Registry Actions(failed) -->
+  <test thread-count="5" name="Visitor Management(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.VisitorManagamentCheckInTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyVisitorCheckIn"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.VisitorManagamentCheckInTest -->
+    </classes>
+  </test> <!-- Visitor Management(failed) -->
+  <test thread-count="5" name="ValidateQRCodeTest(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <classes>
+      <class name="HelixSenseTests.ValidateQRCodeTest">
+        <methods>
+          <include name="verifyQRCode"/>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.ValidateQRCodeTest -->
+    </classes>
+  </test> <!-- ValidateQRCodeTest(failed) -->
+  <test thread-count="5" name="AssetRegistryByQRCodeTest(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <classes>
+      <class name="HelixSenseTests.AssetRegistryByQRCodeTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="VerifyAssetRegistryByQRCode"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AssetRegistryByQRCodeTest -->
+    </classes>
+  </test> <!-- AssetRegistryByQRCodeTest(failed) -->
+  <test thread-count="5" name="HelpDeskByQRCodeTest(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <classes>
+      <class name="HelixSenseTests.HelpDeskByQRCodeTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="verifyHelpDeskRaiseaTicketByQRCode"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.HelpDeskByQRCodeTest -->
+    </classes>
+  </test> <!-- HelpDeskByQRCodeTest(failed) -->
+  <test thread-count="5" name="AssetRegistryByQRScrapTest(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <classes>
+      <class name="HelixSenseTests.AssetRegistryByQRScrapTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+          <include name="verifyAssetRegistryByScrap"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AssetRegistryByQRScrapTest -->
+    </classes>
+  </test> <!-- AssetRegistryByQRScrapTest(failed) -->
+  <test thread-count="5" name="HelixSearchByQRCodeTest(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <classes>
+      <class name="HelixSenseTests.HelixSearchByQRCodeTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyPendingWorkOrdersScanQR"/>
+          <include name="verifyHelixSenseSearchByQR"/>
+          <include name="testCleanUp"/>
+          <include name="verifyRaiseATicketByGlobalSearchUsingQR"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.HelixSearchByQRCodeTest -->
+    </classes>
+  </test> <!-- HelixSearchByQRCodeTest(failed) -->
   <test thread-count="5" name="Helix IncidentRaiseTicketTest by QR(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
     <classes>
       <class name="HelixSenseTests.IncidentRaiseTicketTest">
         <methods>
@@ -204,4 +386,21 @@
       </class> <!-- HelixSenseTests.IncidentRaiseTicketTest -->
     </classes>
   </test> <!-- Helix IncidentRaiseTicketTest by QR(failed) -->
+  <test thread-count="5" name="Helix mail room  by QR(failed)">
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <classes>
+      <class name="HelixSenseTests.MailRoomWithQRCodeTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="verifyMailRoomWithQRCode"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.MailRoomWithQRCodeTest -->
+    </classes>
+  </test> <!-- Helix mail room  by QR(failed) -->
 </suite> <!-- Failed suite [Android-Test-Suite] -->

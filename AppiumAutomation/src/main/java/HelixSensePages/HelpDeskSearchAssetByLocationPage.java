@@ -1,6 +1,8 @@
 package HelixSensePages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -35,21 +37,26 @@ public class HelpDeskSearchAssetByLocationPage extends HelixsensePageBase{
 		// TODO Auto-generated constructor stub
 	}
 
-	public void addAssetByLocation() {
+	public void addAssetByLocation(String building,String space) {
 		
+	
 		clickOnHelpdesk.click();
 		clickOnSearchLocation.click();
-		clickOnBuilding.click();
-		clickOnSpaceB1.click();
+		building=scrollToExactElement(building);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='"+building+"']")).click();
+		space=scrollToExactElement(space);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='"+space+"']")).click();
+		//clickOnBuilding.click();
+		//clickOnSpaceB1.click();
 		clickedOnNext.click();
 		clickOnRaiseaTicket.click();
 		clickOnFurniture.click();
+		
 	}
 
 	public boolean getStatus() {
 		// TODO Auto-generated method stub
 		return clickOnFurniture.isDisplayed();
 	}
-	
 
 }

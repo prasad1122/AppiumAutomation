@@ -9,6 +9,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class HelpdeskRaiseTicketByLocationPage extends HelixsensePageBase {
 
+	
 	String description1="TestChairTicket";
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Helpdesk']")
@@ -39,7 +40,7 @@ public class HelpdeskRaiseTicketByLocationPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Select']")
     WebElement clickOnSelect;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_desc")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_desc")
     WebElement description;
 	
 
@@ -52,7 +53,7 @@ public class HelpdeskRaiseTicketByLocationPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Go to New Tickets']")
     WebElement clickOnNewTickets;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/filter_search")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/filter_search")
     WebElement search;
 	 
 	@AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText")
@@ -64,15 +65,16 @@ public class HelpdeskRaiseTicketByLocationPage extends HelixsensePageBase {
 	@AndroidFindBy (className = "android.widget.TextView")
     List<WebElement> testChairTicket;
 	
-
+	
 	public HelpdeskRaiseTicketByLocationPage(AndroidDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public void addAssetByName() {
 		clickOnHelpdesk.click();
 		clickOnSearchLocation.click();
+		
 		clickOnBuilding.click();
 		clickOnSpaceB1.click();
 		clickedOnNext.click();

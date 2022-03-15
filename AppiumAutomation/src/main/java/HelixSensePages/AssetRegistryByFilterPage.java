@@ -24,7 +24,7 @@ public class AssetRegistryByFilterPage extends HelixsensePageBase{
     WebElement clickOnMaintenance;
 	
 
-	@AndroidFindBy (id = "com.hsensefm.live:id/btn_apply_asset_filter")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/btn_apply_asset_filter")
     WebElement clickOnApplyButton;
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Space B1']")

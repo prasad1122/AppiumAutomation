@@ -48,7 +48,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Register Outbound']")
     WebElement clickonRegisterOutbound;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_notes")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_notes")
     WebElement description;
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Alex']")
@@ -85,11 +85,11 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath= "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout")
     WebElement Dropdown;
 	
-	@AndroidFindBy (id= "com.app.hsense.compass/layout_employee")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/layout_employee")
     WebElement dropdownid;
 	
 
-	@AndroidFindBy (id= "com.app.hsense.compass/signature_pad")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/signature_pad")
     WebElement SignPad;
 	
 	public AddOutboundMailWithEmployeePage(AndroidDriver driver) {
@@ -145,7 +145,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 		
 		Thread.sleep(4000);
 	}
-	public void scrollToExactElement(String str) {
+	public void scrollToExactElementFound(String str) {
         ((AndroidDriver<MobileElement>) driver).findElementByAndroidUIAutomator(
                 "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\""
                         + str + "\").instance(0))").click();
@@ -197,7 +197,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 		registered.click();
 
 		
-		scrollToExactElement("Dispatch to Courier");
+		scrollToExactElementFound("Dispatch to Courier");
 		
 		edittext.get(0).sendKeys("Motivitylabs");
 		edittext.get(1).sendKeys("9217548965256");
@@ -211,7 +211,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 		.release()
 		.build();
 		drawAction.perform();
-		driver.findElement(By.id("com.app.hsense.compass/btn_delivery")).click();
+		driver.findElement(By.id("com.app.hsense.compass:id/btn_delivery")).click();
 		
 	}
 

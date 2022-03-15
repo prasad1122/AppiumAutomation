@@ -1,5 +1,6 @@
 package HelixSensePages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import io.appium.java_client.AppiumDriver;
@@ -42,17 +43,17 @@ public class AssetRegistryByNamePage extends HelixsensePageBase {
 		 element=getTextAcc.getText();
 	}
 
-	public void addAssetByName() {
+	public void addAssetByName(String Name) {
 		
 		clickOnAssetRegistry.click();
-		searchField.sendKeys("ACC");
-		clickedOnACC.click();
+		searchField.sendKeys(Name);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='"+Name+"']")).click();
+		//clickedOnACC.click();
 	
 	}
-
+	
 	public boolean getStatus() {
 		// TODO Auto-generated method stub
 		return clickedOnACC.isDisplayed();
 	}
-
 }

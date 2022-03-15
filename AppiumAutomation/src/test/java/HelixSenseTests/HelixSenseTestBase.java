@@ -10,7 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -19,6 +18,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -27,6 +27,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.helixsense.testsuites.ThreadLocalDriver;
 
+import ExtentClasses.DataDrivenManager;
 import ExtentClasses.ExtentManager;
 import ExtentClasses.WebDriverManagers;
 import HelixSensePages.HelixSenseLoginPage;
@@ -37,9 +38,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 
+
 public class HelixSenseTestBase {
 	
-	
+	 
     private static final ThreadLocalDriver  threadLocalDriver= new ThreadLocalDriver();
 	static Properties testConfig;
 	Logger logger;
@@ -51,7 +53,6 @@ public class HelixSenseTestBase {
 	protected ExtentTest erParentTest; // for test class
 	protected ExtentTest testReport; // for test method
 	
-
 	String testFailureScreenshotPath;
 
 	@BeforeSuite
@@ -67,31 +68,36 @@ public class HelixSenseTestBase {
 		extent.attachReporter(htmlReporter);
 	}
 	@BeforeMethod
-   // @Parameters({ "udid", "platformVersion"})
-	public void testSetup(Method method) throws InterruptedException, MalformedURLException {
+	//@Parameters({ "udid", "platformVersion"})
+	public void testSetup(Method method/*,String udid,String platformVersion*/) throws InterruptedException, MalformedURLException {
 		logger = Logger.getLogger(this.getClass().getSimpleName());
-		
 		logger.info("################# Starting " + method.getName() + " Test Case #################");
 		//startAppiumService(port);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-		 capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554"); 
-	        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-	        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
-	        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-	        capabilities.setCapability(MobileCapabilityType.NO_RESET,true);
-	        capabilities.setCapability("appPackage", "com.app.hsense.compass");
-	        capabilities.setCapability(MobileCapabilityType.APP, "C:\\Users\\Durga\\Downloads\\hsense_sfx_dev_build_1.4.0_070322_13_19.apk");  
-		    //threadLocalDriver.setTLDriver(new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), capabilities));
-		     //driver = threadLocalDriver.getTLDriver();
-		     URL remoteUrl = new URL("http://localhost:4723/wd/hub");
-		     driver = new AndroidDriver<MobileElement>(remoteUrl, capabilities); 
-		     driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS) ;
+        capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554"); 
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+        capabilities.setCapability(MobileCapabilityType.NO_RESET,true);
+        capabilities.setCapability("appPackage", "com.app.hsense.compass");
+        capabilities.setCapability(MobileCapabilityType.APP, "C:\\Users\\Durga\\Downloads\\hsense_sfx_dev_build_1.4.0_070322_13_19.apk");  
+	    //threadLocalDriver.setTLDriver(new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), capabilities));
+	     //driver = threadLocalDriver.getTLDriver();
+	     URL remoteUrl = new URL("http://localhost:4723/wd/hub");
+	     driver = new AndroidDriver<MobileElement>(remoteUrl, capabilities); 
+	     driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS) ;
 		    loginpage=new HelixSenseLoginPage(driver);
 	        //loginpage.login(testConfig.getProperty("username"), testConfig.getProperty("password"));
 			logger.info("Verifying the login for account: " + testConfig.getProperty("username") + ","
 					+ testConfig.getProperty("password"));
 	}
+	@DataProvider
+	public Object[][] dataProvider(Method method) {
+		DataDrivenManager ddm = new DataDrivenManager(testConfig.getProperty("testdatafile"));
+		Object[][] TestData = ddm.getTestCaseDataSets(testConfig.getProperty("testdatasheet"), method.getName());
 
+		return TestData;
+	}
 	public void startAppiumService(String port) {
 		AppiumDriverLocalService service;
 		AppiumServiceBuilder builder=new AppiumServiceBuilder();
@@ -148,12 +154,13 @@ public class HelixSenseTestBase {
 	@BeforeMethod
 	public synchronized void extentReportBeforeMethod(Method method) {
 		// In ER test class, create test node based TestNG test method
-		testReport = erParentTest.createNode(method.getName());
+		testReport = erParentTest.createNode(method.getName()+" "+"with correct credentials"+" "+testConfig.getProperty("username") + ","
+				+ testConfig.getProperty("password"));
 		testThread.set(testReport);
 	}
 
 	@AfterMethod(dependsOnMethods = "testCleanUp")
-	public synchronized void extentReportAfterMethod(ITestResult result) throws IOException {
+	public synchronized void extentReportAfterMethod(ITestResult result,Method method) throws IOException {
 
 		if (result.getStatus() == ITestResult.FAILURE)
 			// Fail the testReport when TestNG test is failed
@@ -165,11 +172,9 @@ public class HelixSenseTestBase {
 					MediaEntityBuilder.createScreenCaptureFromPath(testFailureScreenshotPath).build());
 		else
 			// Pass the testReport when TestNG test is passed
-			testReport.pass("Test passed");
+			testReport.pass("Test passed"+"-"+method.getName());
 
 		extent.flush();
 	}
 	
-	
-
 }

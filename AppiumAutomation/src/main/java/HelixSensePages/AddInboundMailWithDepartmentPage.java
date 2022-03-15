@@ -43,7 +43,7 @@ public class AddInboundMailWithDepartmentPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Register Inbound']")
     WebElement clickonRegisterInbound;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_notes")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_notes")
     WebElement description;
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Alex']")
@@ -66,13 +66,13 @@ public class AddInboundMailWithDepartmentPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath= "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout")
     WebElement Dropdown;
 	
-	@AndroidFindBy (id= "com.app.hsense.compass/spn_department")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/spn_department")
     WebElement dropdownid;
 	
-	@AndroidFindBy (id= "com.app.hsense.compass/layout_employee")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/layout_employee")
     WebElement dropdownidemp;
 	
-	@AndroidFindBy (id= "com.app.hsense.compass/edt_shelf")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/edt_shelf")
     WebElement storageLocation;
 	
 	
@@ -151,12 +151,7 @@ public class AddInboundMailWithDepartmentPage extends HelixsensePageBase {
 		
 		Thread.sleep(4000);
 	}
-	public void scrollToExactElement(String str) {
-        ((AndroidDriver<MobileElement>) driver).findElementByAndroidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\""
-                        + str + "\").instance(0))").click();
-    }
-
+	
 
 
 	public boolean getStatus() {

@@ -2,10 +2,7 @@ package HelixSensePages;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import  io.appium.java_client.PerformsTouchActions; 
-import io.appium.java_client.TouchAction; 
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -34,7 +31,7 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Select']")
     WebElement clickOnSelect;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/edt_desc")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/edt_desc")
     WebElement description;
 	
 
@@ -50,12 +47,11 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Fire']")
     WebElement clickOnFire;
 	
+	
 	public IncidentRaiseTicketPage(AndroidDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-
-
 
 	public void addIncident() throws InterruptedException {
 		
@@ -63,13 +59,10 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 		scrollToExactElement("Incident Management");
 		
 		Thread.sleep(3000);
-		driver.findElementById("com.app.hsense.compass/report_incidents_btn").click();
+		driver.findElementById("com.app.hsense.compass:id/report_incidents_btn").click();
 		clickOnSearchqrcode.click();
 		Thread.sleep(5000);
 		clickOnAccident.click();
-		clickOnAccident.click();
-		
-
 		clickOnFire.click();
 		clickOnSelect.click();
 		//clickOnFitting.click();

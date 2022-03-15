@@ -16,7 +16,7 @@ public class InspectionSchedulePage extends HelixsensePageBase{
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Scan QR to Perform Inspection']")
     WebElement clickOnScanQRtoPerformInspection;
 	
-	@AndroidFindBy (id = "com.app.hsense.compass/layout_starts_in")
+	@AndroidFindBy (id = "com.app.hsense.compass:id/layout_starts_in")
     WebElement clickOnButton;
 	
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='Yes']")

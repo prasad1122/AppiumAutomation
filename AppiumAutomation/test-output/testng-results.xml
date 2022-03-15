@@ -2,61 +2,66 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74715" started-at="2022-03-14T17:05:22 IST" finished-at="2022-03-14T17:06:36 IST">
+  <suite name="Default suite" duration-ms="73930" started-at="2022-03-14T19:11:39 IST" finished-at="2022-03-14T19:12:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74715" started-at="2022-03-14T17:05:22 IST" finished-at="2022-03-14T17:06:36 IST">
+    <test name="Default test" duration-ms="73930" started-at="2022-03-14T19:11:39 IST" finished-at="2022-03-14T19:12:53 IST">
       <class name="HelixSenseTests.HelpDeskByQRCodeTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="beforeSuite" is-config="true" duration-ms="1366" started-at="2022-03-14T17:05:20 IST" finished-at="2022-03-14T17:05:22 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="beforeSuite" is-config="true" duration-ms="2085" started-at="2022-03-14T19:11:37 IST" finished-at="2022-03-14T19:11:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="extentReportBeforeClass" is-config="true" duration-ms="10" started-at="2022-03-14T17:05:22 IST" finished-at="2022-03-14T17:05:22 IST">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="extentReportBeforeClass" is-config="true" duration-ms="11" started-at="2022-03-14T19:11:39 IST" finished-at="2022-03-14T19:11:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeClass -->
-        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="extentReportBeforeMethod" is-config="true" duration-ms="7" started-at="2022-03-14T17:05:22 IST" finished-at="2022-03-14T17:05:22 IST">
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="extentReportBeforeMethod" is-config="true" duration-ms="20" started-at="2022-03-14T19:11:39 IST" finished-at="2022-03-14T19:11:39 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseaTicketByQRCode() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicekyUsingQRCode() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeMethod -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="testSetup" is-config="true" duration-ms="29749" started-at="2022-03-14T17:05:22 IST" finished-at="2022-03-14T17:05:52 IST">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="testSetup" is-config="true" duration-ms="28366" started-at="2022-03-14T19:11:39 IST" finished-at="2022-03-14T19:12:08 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseaTicketByQRCode() throws java.lang.InterruptedException]]>
+                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicekyUsingQRCode() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="verifyHelpDeskRaiseaTicketByQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="verifyHelpDeskRaiseaTicketByQRCode" duration-ms="42698" started-at="2022-03-14T17:05:52 IST" finished-at="2022-03-14T17:06:34 IST">
+        <test-method status="PASS" signature="verifyHelpDeskRaiseTicekyUsingQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="verifyHelpDeskRaiseTicekyUsingQRCode" duration-ms="43400" started-at="2022-03-14T19:12:08 IST" finished-at="2022-03-14T19:12:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHelpDeskRaiseaTicketByQRCode -->
-        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="testCleanUp" is-config="true" duration-ms="1571" started-at="2022-03-14T17:06:34 IST" finished-at="2022-03-14T17:06:36 IST">
+        </test-method> <!-- verifyHelpDeskRaiseTicekyUsingQRCode -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="testCleanUp" is-config="true" duration-ms="1350" started-at="2022-03-14T19:12:51 IST" finished-at="2022-03-14T19:12:52 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelpDeskRaiseaTicketByQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseaTicketByQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHelpDeskRaiseTicekyUsingQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicekyUsingQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f]" name="extentReportAfterMethod" is-config="true" duration-ms="625" started-at="2022-03-14T17:06:36 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-14T17:06:36 IST">
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247]" name="extentReportAfterMethod" is-config="true" duration-ms="687" started-at="2022-03-14T19:12:52 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-14T19:12:53 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHelpDeskRaiseaTicketByQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseaTicketByQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@ad1f1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHelpDeskRaiseTicekyUsingQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicekyUsingQRCode()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@12d3247] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicekyUsingQRCode() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>

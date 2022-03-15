@@ -18,7 +18,7 @@ public class HelpDeskTicketsPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='New Tickets']")
     WebElement NewTickets;
 
-	@AndroidFindBy (id= "com.app.hsense.compass/go_to_ip_ticket")
+	@AndroidFindBy (id= "com.app.hsense.compass:id/go_to_ip_ticket")
     WebElement clickOnInprogress;
 	
 

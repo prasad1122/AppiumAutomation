@@ -33,7 +33,6 @@ public class HelixSearchByQRCodePage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Furniture & Fitting']")
     WebElement clickOnFitting;
 	
-	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Broken Chair']")
     WebElement clickOnBrokeChair;
 	

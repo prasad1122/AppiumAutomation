@@ -16,7 +16,7 @@ public class VisitorManagamentCheckInTest extends  HelixSenseTestBase
 		visitorManagamentCheckInPage=new VisitorManagamentCheckInPage(driver);
 		visitorManagamentCheckInPage.AddCheckIn();
 		
-
+		
 	}
 
 }
