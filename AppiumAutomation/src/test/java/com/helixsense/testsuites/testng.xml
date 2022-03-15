@@ -167,6 +167,16 @@
 		</classes>
     </test>
     
+     <test name="Work Order">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.WorkOrderTest" />
+		</classes>
+    </test>
+    
   <test name="ValidateQRCodeTest">
          <parameter name="udid" value="emulator-5554"/>
         <parameter name="platformVersion" value="12"/>

@@ -20,5 +20,4 @@ public class HelpDeskByQRCodeTest extends HelixSenseTestBase{
 		Assert.assertEquals(Actual, Excepted,"ERROR!HelpDesk Raise a Ticket Using QR Code failed");
 		testReport.info("Validate HelpDesk Raise a Ticket Using QRCode");
 	}
-	
 }
