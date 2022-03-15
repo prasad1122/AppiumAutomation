@@ -76,7 +76,7 @@ public class HelixSenseTestBase {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554"); 
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.NO_RESET,true);
         capabilities.setCapability("appPackage", "com.app.hsense.compass");

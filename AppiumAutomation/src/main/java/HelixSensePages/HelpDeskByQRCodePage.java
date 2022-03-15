@@ -58,11 +58,10 @@ public class HelpDeskByQRCodePage extends HelixsensePageBase {
 		// TODO Auto-generated constructor stub
 	}
 
-
-
 	public void RaiseaTicketByQR() throws InterruptedException {
 		clickOnHelpdesk.click();
 		clickOnSearchqrcode.click();
+		//await().atMost(5, SECONDS).until(statusIsUpdatedInDB());
 		Thread.sleep(5000);
 		clickOnFitting.click();
 		clickOnBrokeChair.click();
