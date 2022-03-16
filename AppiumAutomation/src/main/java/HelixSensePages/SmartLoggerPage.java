@@ -32,8 +32,7 @@ public class SmartLoggerPage extends HelixsensePageBase{
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Smart logger submitted successfully.']")
     WebElement confromation;
 	
-	
-	
+
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='GO TO SMARTLOGGER HOME']")
     WebElement home;
 	
