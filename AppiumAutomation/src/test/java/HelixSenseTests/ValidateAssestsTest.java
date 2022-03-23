@@ -10,7 +10,7 @@ public class ValidateAssestsTest extends HelixSenseTestBase {
 	
 	
 	@Test
-	public void ValidateAssests()
+	public void ValidateAssests() throws InterruptedException
 	{
 		validateAssestPage=new ValidateAssestsPage(driver);
 		validateAssestPage.verifyOperativeAsset();

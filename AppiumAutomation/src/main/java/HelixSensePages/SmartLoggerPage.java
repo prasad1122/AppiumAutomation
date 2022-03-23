@@ -29,8 +29,11 @@ public class SmartLoggerPage extends HelixsensePageBase{
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='OK']")
     WebElement clickOK;
 	
+	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Smart logger submitted successfully.']")
-    WebElement confromation;
+    WebElement conformation;
+	
+	
 	
 
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='GO TO SMARTLOGGER HOME']")
@@ -69,7 +72,7 @@ public class SmartLoggerPage extends HelixsensePageBase{
 
 	public boolean getStatus() {
 		// TODO Auto-generated method stub
-		return confromation.isDisplayed();
+		return conformation.isDisplayed();
 	}
 
 

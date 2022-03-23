@@ -33,9 +33,11 @@ public class AddInboundMailWithDepartmentPage extends HelixsensePageBase {
 	@AndroidFindBy (xpath = "//android.widget.CheckedTextView[@text='Department']")
     WebElement department;
 
-	@AndroidFindBy (className = "android.widget.EditText")
+	@AndroidFindBy (className = "android.widget.AutoCompleteTextView")
     List<WebElement> edittext;
 	
+	@AndroidFindBy (className = "android.widget.EditText")
+    List<WebElement> edittextfield;
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Medium']")
     WebElement selectMedium;
@@ -134,9 +136,9 @@ public class AddInboundMailWithDepartmentPage extends HelixsensePageBase {
 		edittext.get(2).sendKeys("Blue Dart Express Limited");
 		
 		//driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Enter description\").instance(0))");
-		edittext.get(3).sendKeys("1234567");
+		edittextfield.get(0).sendKeys("1234567");
 		
-		edittext.get(4).sendKeys(senderInformation);
+		edittextfield.get(1).sendKeys(senderInformation);
 		
 		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Enter description\").instance(0))");
 		storageLocation.sendKeys("Near reception");

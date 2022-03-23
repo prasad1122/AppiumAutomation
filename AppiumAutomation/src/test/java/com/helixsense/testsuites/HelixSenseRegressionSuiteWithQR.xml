@@ -2,7 +2,7 @@
 
 <suite name="androidtestsuite">
 
-	<test name="ValidateQRCodeTest">
+<test name="ValidateQRCodeTest">
          <parameter name="udid" value="emulator-5554"/>
         <parameter name="platformVersion" value="12"/>
      
@@ -11,6 +11,8 @@
 				name="HelixSenseTests.ValidateQRCodeTest" />
 		</classes>
     </test>
+    
+ 
     
     <test name="AssetRegistryByQRCodeTest">
          <parameter name="udid" value="emulator-5554"/>
@@ -67,6 +69,19 @@
 				name="HelixSenseTests.IncidentRaiseTicketTest" />
 		</classes>
 	</test>	
+	
+	
+	 <test name="SmartLogger Test">
+    
+     <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+		<classes>
+			<class
+				name="HelixSenseTests.SmartLoggerTest" />
+		</classes>
+	</test>	
+	
+     
    <test name="Helix mail room  by QR">
     
      <parameter name="udid" value="emulator-5554"/>
@@ -77,5 +92,4 @@
 		</classes>
 	</test>		
     
-     		
 </suite>

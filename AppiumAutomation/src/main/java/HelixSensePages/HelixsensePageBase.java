@@ -51,7 +51,6 @@ public abstract  class HelixsensePageBase {
 		return randomticketname;
 	}
 	
-	@SuppressWarnings("unchecked")
 	public String  scrollToExactElement(String str) {
         ((AndroidDriver<MobileElement>) driver).findElementByAndroidUIAutomator(
                 "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\""

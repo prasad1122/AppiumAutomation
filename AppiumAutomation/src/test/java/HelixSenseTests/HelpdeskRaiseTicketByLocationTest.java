@@ -11,7 +11,7 @@ public class HelpdeskRaiseTicketByLocationTest extends HelixSenseTestBase  {
 	
 	HelpdeskRaiseTicketByLocationPage raiseByLocationPage;
 	
-	@Test
+	@Test()
 	public void verifyHelpdeskRaiseTicketByLocation() throws InterruptedException
 	{
 		raiseByLocationPage=new HelpdeskRaiseTicketByLocationPage(driver);

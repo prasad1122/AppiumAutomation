@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Helix IncidentRaiseTicketTest by QR</title>
+<title>TestNG:  SmartLogger Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Helix IncidentRaiseTicketTest by QR</h2><table border='1' align="center">
+<h2 align='center'>SmartLogger Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 23 10:55:50 IST 2022</td>
+<td>Started on:</td><td>Wed Mar 23 10:57:55 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>125 seconds (125545 ms)</td>
+<tr><td>Total time:</td><td>151 seconds (151801 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='HelixSenseTests.IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket()'><b>verifyIncidentManagementRaiseTicket</b><br>Test class: HelixSenseTests.IncidentRaiseTicketTest</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element &apos;By.AndroidUiAutomator: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;Incident Management&quot;).instance(0))&apos; does not exist in DOM anymore
+<td title='HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()'><b>verifySmartLoggerUsingQR</b><br>Test class: HelixSenseTests.SmartLoggerTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.clazz: android.widget.EditText&apos; do not exist in DOM anymore
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MLI-LAP-180&apos;, ip: &apos;172.16.1.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\Durga\Downloads\hs..., appPackage: com.app.hsense.compass, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Durga\Downloads\hs..., appPackage: com.app.hsense.compass, automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 12, udid: emulator-5554}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 136, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1936, left: 0, top: 136, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 93d6042c-7073-4964-99d1-f29607dd602b
+Session ID: 6601cf37-7805-4859-bdf4-a9616f75527b
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -96,19 +96,18 @@ Session ID: 93d6042c-7073-4964-99d1-f29607dd602b
 	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
 	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
 	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at HelixSensePages.HelixsensePageBase.scrollToExactElement(HelixsensePageBase.java:58)
-	at HelixSensePages.IncidentRaiseTicketPage.addIncident(IncidentRaiseTicketPage.java:59)
-	at HelixSenseTests.IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket(IncidentRaiseTicketTest.java:16)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at HelixSensePages.SmartLoggerPage.enterValues(SmartLoggerPage.java:62)
+	at HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR(SmartLoggerTest.java:19)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29504431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace29504431'><pre>org.openqa.selenium.StaleElementReferenceException: The element &apos;By.AndroidUiAutomator: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;Incident Management&quot;).instance(0))&apos; does not exist in DOM anymore
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22669964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22669964'><pre>org.openqa.selenium.StaleElementReferenceException: Cached elements &apos;By.clazz: android.widget.EditText&apos; do not exist in DOM anymore
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MLI-LAP-180&apos;, ip: &apos;172.16.1.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\Durga\Downloads\hs..., appPackage: com.app.hsense.compass, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Durga\Downloads\hs..., appPackage: com.app.hsense.compass, automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 12, udid: emulator-5554}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 136, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1936, left: 0, top: 136, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 93d6042c-7073-4964-99d1-f29607dd602b
+Session ID: 6601cf37-7805-4859-bdf4-a9616f75527b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -126,10 +125,9 @@ Session ID: 93d6042c-7073-4964-99d1-f29607dd602b
 	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
 	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
 	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at HelixSensePages.HelixsensePageBase.scrollToExactElement(HelixsensePageBase.java:58)
-	at HelixSensePages.IncidentRaiseTicketPage.addIncident(IncidentRaiseTicketPage.java:59)
-	at HelixSenseTests.IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket(IncidentRaiseTicketTest.java:16)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at HelixSensePages.SmartLoggerPage.enterValues(SmartLoggerPage.java:62)
+	at HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR(SmartLoggerTest.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -159,8 +157,26 @@ Session ID: 93d6042c-7073-4964-99d1-f29607dd602b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>102</td>
-<td>HelixSenseTests.IncidentRaiseTicketTest@18298f</td></tr>
+<td>12</td>
+<td>HelixSenseTests.SmartLoggerTest@1d66ad3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HelixSenseTests.SmartLoggerTest.verifyAssetRegistryMoveToAnotherLocation()'><b>verifyAssetRegistryMoveToAnotherLocation</b><br>Test class: HelixSenseTests.SmartLoggerTest</td>
+<td></td>
+<td>33</td>
+<td>HelixSenseTests.SmartLoggerTest@1d66ad3</td></tr>
+<tr>
+<td title='HelixSenseTests.SmartLoggerTest.verifyAssetRegistryIsReplaced()'><b>verifyAssetRegistryIsReplaced</b><br>Test class: HelixSenseTests.SmartLoggerTest</td>
+<td></td>
+<td>32</td>
+<td>HelixSenseTests.SmartLoggerTest@1d66ad3</td></tr>
 </table><p>
 </body>
 </html>

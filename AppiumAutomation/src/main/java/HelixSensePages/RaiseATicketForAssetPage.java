@@ -67,7 +67,7 @@ String description1="TestChairTicket";
 	@AndroidFindBy (id = "com.app.hsense.compass:id/filter_search")
     WebElement search;
 	 
-	@AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText")
+	@AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.AutoCompleteTextView")
     WebElement searchFiledbox;
 	
 	@AndroidFindBy (xpath = "(//android.widget.ImageView[@content-desc=\"HSense\"])[5]")
@@ -106,8 +106,7 @@ String description1="TestChairTicket";
 		clickOnOk.click();
 		clickOnNewTickets.click();
 		search.click();
-		waitForVisible(driver,searchFiledbox);
-	
+		
 		searchFiledbox.sendKeys(description1);
 		clickOnbutton.click();
 	}

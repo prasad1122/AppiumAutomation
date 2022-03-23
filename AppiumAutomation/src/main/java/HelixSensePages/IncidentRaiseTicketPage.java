@@ -61,7 +61,7 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 		Thread.sleep(3000);
 		driver.findElementById("com.app.hsense.compass:id/report_incidents_btn").click();
 		clickOnSearchqrcode.click();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		clickOnAccident.click();
 		clickOnFire.click();
 		clickOnSelect.click();

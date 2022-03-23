@@ -12,7 +12,7 @@ public class RaiseATicketForAssetTest extends HelixSenseTestBase {
 	RaiseATicketForAssetPage raiseByTicketPage;
 	
 	@Test
-	public void verifyHelpdeskRaiseTicketByLocation() throws InterruptedException
+	public void verifyRaiseaTicketForAsset() throws InterruptedException
 	{
 		raiseByTicketPage=new RaiseATicketForAssetPage(driver);
 		raiseByTicketPage.addAssetByName();

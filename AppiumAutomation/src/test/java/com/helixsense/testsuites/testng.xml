@@ -5,7 +5,7 @@
 
     <test name="LoginTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
         
        <classes>
 			<class
@@ -15,7 +15,7 @@
     
     <test name="AssetRegistryByLocationTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
        
       <classes>
 			<class
@@ -25,7 +25,7 @@
     
       <test name="AssetRegistryByNameTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
      
      <classes>
 			<class
@@ -36,7 +36,7 @@
     
      <test name="ValidateAssestsTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
        
      <classes>
 			<class
@@ -46,7 +46,7 @@
     
      <test name="HelpDeskSearchAssetByLocationTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
   
     <classes>
 			<class
@@ -57,7 +57,7 @@
 
  <test name="HelpDeskAssetByNameTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
       
    <classes>
 			<class
@@ -68,7 +68,7 @@
     
      <test name="HelpDeskTicketsTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
        
    <classes>
 			<class
@@ -78,7 +78,7 @@
     
      <test name="RaiseATicketForAssetTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
         
   <classes>
 			<class
@@ -88,7 +88,7 @@
     
      <test name="IncidentRaiseTicketByLocationTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
         
   <classes>
 			<class
@@ -99,7 +99,7 @@
     
      <test name="HelpdeskRaiseTicketByLocationTest">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -109,7 +109,7 @@
     
      <test name="Inbound verification with employee">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -119,7 +119,7 @@
     
      <test name="Inbound verification with department">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -129,7 +129,7 @@
     
     <test name="Outbound verification with employee">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -139,7 +139,7 @@
     
      <test name="Outbound verification with department">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -149,7 +149,7 @@
      
       <test name="Asset Registry Actions">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -159,7 +159,7 @@
      
       <test name="Visitor Management">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class
@@ -169,7 +169,7 @@
     
      <test name="Work Order">
          <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
-        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformVersion" value="12"/>
     
   <classes>
 			<class

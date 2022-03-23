@@ -44,8 +44,8 @@ public class ValidateAssestsPage extends HelixsensePageBase {
 		
 	}
 
-	public boolean getoperativestatus() {
-		
+	public boolean getoperativestatus() throws InterruptedException {
+		Thread.sleep(2000);
 		return operativeAssests.isDisplayed();
 	}
 
@@ -54,20 +54,24 @@ public class ValidateAssestsPage extends HelixsensePageBase {
 		clickOnUnderMaintainenece.click();
 	}
 
-	public boolean getmaintenenecetatus() {
+	public boolean getmaintenenecetatus() throws InterruptedException {
 		// TODO Auto-generated method stub
+		Thread.sleep(2000);
 		return underMaintaience.isDisplayed();
 	}
 
-	public void verifyScrappedAsset() {
+	public void verifyScrappedAsset() throws InterruptedException {
 		driver.navigate().back();
 		
+		
 		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Go to In Scrapped Assets\").instance(0))");
+		Thread.sleep(2000);
 		clickOnScrappedAssests.click();
 		
 	}
 
-	public boolean getScrappedstatus() {
+	public boolean getScrappedstatus() throws InterruptedException {
+		Thread.sleep(2000);
 		// TODO Auto-generated method stub
 		return scrappedAssests.isDisplayed();
 	}
