@@ -1,21 +1,2177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="37" passed="36">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="133853" started-at="2022-03-23T13:06:55 IST" finished-at="2022-03-23T13:09:09 IST">
+  <suite name="Android-Test-Suite" duration-ms="1800737" started-at="2022-03-23T17:39:15 IST" finished-at="2022-03-23T18:09:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="133853" started-at="2022-03-23T13:06:55 IST" finished-at="2022-03-23T13:09:09 IST">
-      <class name="HelixSenseTests.IncidentRaiseTicketTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="beforeSuite" is-config="true" duration-ms="1959" started-at="2022-03-23T13:06:53 IST" finished-at="2022-03-23T13:06:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="extentReportBeforeClass" is-config="true" duration-ms="11" started-at="2022-03-23T13:06:55 IST" finished-at="2022-03-23T13:06:55 IST">
+    <test name="LoginTest" duration-ms="21685" started-at="2022-03-23T17:39:15 IST" finished-at="2022-03-23T17:39:37 IST">
+      <class name="HelixSenseTests.LoginTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.LoginTest@9cfc36]" name="extentReportBeforeClass" is-config="true" duration-ms="9" started-at="2022-03-23T17:39:15 IST" finished-at="2022-03-23T17:39:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeClass -->
-        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="extentReportBeforeMethod" is-config="true" duration-ms="7" started-at="2022-03-23T13:06:55 IST" finished-at="2022-03-23T13:06:55 IST">
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.LoginTest@9cfc36]" name="extentReportBeforeMethod" is-config="true" duration-ms="5" started-at="2022-03-23T17:39:15 IST" finished-at="2022-03-23T17:39:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.LoginTest.HelixSenseLogIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.LoginTest@9cfc36]" name="testSetup" is-config="true" duration-ms="15407" started-at="2022-03-23T17:39:15 IST" finished-at="2022-03-23T17:39:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.LoginTest.HelixSenseLogIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="HelixSenseLogIn()[pri:0, instance:HelixSenseTests.LoginTest@9cfc36]" name="HelixSenseLogIn" duration-ms="4572" started-at="2022-03-23T17:39:31 IST" finished-at="2022-03-23T17:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelixSenseLogIn -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.LoginTest@9cfc36]" name="testCleanUp" is-config="true" duration-ms="571" started-at="2022-03-23T17:39:35 IST" finished-at="2022-03-23T17:39:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelixSenseLogIn status=SUCCESS method=LoginTest.HelixSenseLogIn()[pri:0, instance:HelixSenseTests.LoginTest@9cfc36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.LoginTest@9cfc36]" name="extentReportAfterMethod" is-config="true" duration-ms="1048" started-at="2022-03-23T17:39:36 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:39:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelixSenseLogIn status=SUCCESS method=LoginTest.HelixSenseLogIn()[pri:0, instance:HelixSenseTests.LoginTest@9cfc36] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.LoginTest.HelixSenseLogIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="AssetRegistryByLocationTest" duration-ms="31511" started-at="2022-03-23T17:39:37 IST" finished-at="2022-03-23T17:40:08 IST">
+      <class name="HelixSenseTests.AssetRegistryByLocationTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:39:37 IST" finished-at="2022-03-23T17:39:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:39:38 IST" finished-at="2022-03-23T17:39:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByLocationTest.AssetRegistrySearchByLocation(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9]" name="testSetup" is-config="true" duration-ms="9534" started-at="2022-03-23T17:39:38 IST" finished-at="2022-03-23T17:39:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByLocationTest.AssetRegistrySearchByLocation(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="AssetRegistrySearchByLocation(java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9]" name="AssetRegistrySearchByLocation" duration-ms="20030" started-at="2022-03-23T17:39:48 IST" data-provider="dataProvider" finished-at="2022-03-23T17:40:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Building]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Space B1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssetRegistrySearchByLocation -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9]" name="testCleanUp" is-config="true" duration-ms="578" started-at="2022-03-23T17:40:08 IST" finished-at="2022-03-23T17:40:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssetRegistrySearchByLocation status=SUCCESS method=AssetRegistryByLocationTest.AssetRegistrySearchByLocation(java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9]" name="extentReportAfterMethod" is-config="true" duration-ms="264" started-at="2022-03-23T17:40:08 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:40:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssetRegistrySearchByLocation status=SUCCESS method=AssetRegistryByLocationTest.AssetRegistrySearchByLocation(java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByLocationTest@1b467e9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByLocationTest.AssetRegistrySearchByLocation(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AssetRegistryByLocationTest -->
+    </test> <!-- AssetRegistryByLocationTest -->
+    <test name="AssetRegistryByNameTest" duration-ms="22608" started-at="2022-03-23T17:40:08 IST" finished-at="2022-03-23T17:40:31 IST">
+      <class name="HelixSenseTests.AssetRegistryByNameTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:40:08 IST" finished-at="2022-03-23T17:40:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3]" name="testSetup" is-config="true" duration-ms="9735" started-at="2022-03-23T17:40:08 IST" finished-at="2022-03-23T17:40:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByNameTest.AssetRegistryByNameTest(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:40:08 IST" finished-at="2022-03-23T17:40:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByNameTest.AssetRegistryByNameTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="AssetRegistryByNameTest(java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3]" name="AssetRegistryByNameTest" duration-ms="12017" started-at="2022-03-23T17:40:18 IST" data-provider="dataProvider" finished-at="2022-03-23T17:40:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ACC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssetRegistryByNameTest -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3]" name="testCleanUp" is-config="true" duration-ms="558" started-at="2022-03-23T17:40:30 IST" finished-at="2022-03-23T17:40:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssetRegistryByNameTest status=SUCCESS method=AssetRegistryByNameTest.AssetRegistryByNameTest(java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3]" name="extentReportAfterMethod" is-config="true" duration-ms="225" started-at="2022-03-23T17:40:31 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:40:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssetRegistryByNameTest status=SUCCESS method=AssetRegistryByNameTest.AssetRegistryByNameTest(java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByNameTest@10726a3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByNameTest.AssetRegistryByNameTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AssetRegistryByNameTest -->
+    </test> <!-- AssetRegistryByNameTest -->
+    <test name="ValidateAssestsTest" duration-ms="32874" started-at="2022-03-23T17:40:31 IST" finished-at="2022-03-23T17:41:04 IST">
+      <class name="HelixSenseTests.ValidateAssestsTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:40:31 IST" finished-at="2022-03-23T17:40:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:40:31 IST" finished-at="2022-03-23T17:40:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.ValidateAssestsTest.ValidateAssests() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528]" name="testSetup" is-config="true" duration-ms="9786" started-at="2022-03-23T17:40:31 IST" finished-at="2022-03-23T17:40:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.ValidateAssestsTest.ValidateAssests() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="ValidateAssests()[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528]" name="ValidateAssests" duration-ms="21707" started-at="2022-03-23T17:40:41 IST" finished-at="2022-03-23T17:41:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAssests -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528]" name="testCleanUp" is-config="true" duration-ms="873" started-at="2022-03-23T17:41:03 IST" finished-at="2022-03-23T17:41:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateAssests status=SUCCESS method=ValidateAssestsTest.ValidateAssests()[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528]" name="extentReportAfterMethod" is-config="true" duration-ms="501" started-at="2022-03-23T17:41:03 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:41:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateAssests status=SUCCESS method=ValidateAssestsTest.ValidateAssests()[pri:0, instance:HelixSenseTests.ValidateAssestsTest@f4d528] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.ValidateAssestsTest.ValidateAssests() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.ValidateAssestsTest -->
+    </test> <!-- ValidateAssestsTest -->
+    <test name="HelpDeskSearchAssetByLocationTest" duration-ms="28670" started-at="2022-03-23T17:41:04 IST" finished-at="2022-03-23T17:41:33 IST">
+      <class name="HelixSenseTests.HelpDeskSearchAssetByLocationTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:41:04 IST" finished-at="2022-03-23T17:41:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:41:04 IST" finished-at="2022-03-23T17:41:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskSearchAssetByLocationTest.HelpDeskSearchAssetByLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5]" name="testSetup" is-config="true" duration-ms="11970" started-at="2022-03-23T17:41:04 IST" finished-at="2022-03-23T17:41:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskSearchAssetByLocationTest.HelpDeskSearchAssetByLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="HelpDeskSearchAssetByLocation(java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5]" name="HelpDeskSearchAssetByLocation" duration-ms="15487" started-at="2022-03-23T17:41:16 IST" data-provider="dataProvider" finished-at="2022-03-23T17:41:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Building]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Space B1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpDeskSearchAssetByLocation -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5]" name="testCleanUp" is-config="true" duration-ms="752" started-at="2022-03-23T17:41:31 IST" finished-at="2022-03-23T17:41:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelpDeskSearchAssetByLocation status=SUCCESS method=HelpDeskSearchAssetByLocationTest.HelpDeskSearchAssetByLocation(java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5]" name="extentReportAfterMethod" is-config="true" duration-ms="379" started-at="2022-03-23T17:41:32 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:41:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelpDeskSearchAssetByLocation status=SUCCESS method=HelpDeskSearchAssetByLocationTest.HelpDeskSearchAssetByLocation(java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskSearchAssetByLocationTest@4921a5] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskSearchAssetByLocationTest.HelpDeskSearchAssetByLocation(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.HelpDeskSearchAssetByLocationTest -->
+    </test> <!-- HelpDeskSearchAssetByLocationTest -->
+    <test name="HelpDeskAssetByNameTest" duration-ms="77033" started-at="2022-03-23T17:41:33 IST" finished-at="2022-03-23T17:42:50 IST">
+      <class name="HelixSenseTests.HelpDeskAssetByNameTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:41:33 IST" finished-at="2022-03-23T17:41:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:41:33 IST" finished-at="2022-03-23T17:41:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskAssetByNameTest.verifyHelpDeskAssetByName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521]" name="testSetup" is-config="true" duration-ms="11008" started-at="2022-03-23T17:41:33 IST" finished-at="2022-03-23T17:41:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskAssetByNameTest.verifyHelpDeskAssetByName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyHelpDeskAssetByName()[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521]" name="verifyHelpDeskAssetByName" duration-ms="65112" started-at="2022-03-23T17:41:44 IST" finished-at="2022-03-23T17:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpDeskAssetByName -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521]" name="testCleanUp" is-config="true" duration-ms="648" started-at="2022-03-23T17:42:49 IST" finished-at="2022-03-23T17:42:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpDeskAssetByName status=SUCCESS method=HelpDeskAssetByNameTest.verifyHelpDeskAssetByName()[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521]" name="extentReportAfterMethod" is-config="true" duration-ms="254" started-at="2022-03-23T17:42:50 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:42:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpDeskAssetByName status=SUCCESS method=HelpDeskAssetByNameTest.verifyHelpDeskAssetByName()[pri:0, instance:HelixSenseTests.HelpDeskAssetByNameTest@1cd6521] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskAssetByNameTest.verifyHelpDeskAssetByName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.HelpDeskAssetByNameTest -->
+    </test> <!-- HelpDeskAssetByNameTest -->
+    <test name="HelpDeskTicketsTest" duration-ms="32524" started-at="2022-03-23T17:42:50 IST" finished-at="2022-03-23T17:43:22 IST">
+      <class name="HelixSenseTests.HelpDeskTicketsTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3]" name="extentReportBeforeClass" is-config="true" duration-ms="2" started-at="2022-03-23T17:42:50 IST" finished-at="2022-03-23T17:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:42:50 IST" finished-at="2022-03-23T17:42:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskTicketsTest.VerifyHelpDeskTickets()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3]" name="testSetup" is-config="true" duration-ms="10529" started-at="2022-03-23T17:42:50 IST" finished-at="2022-03-23T17:43:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskTicketsTest.VerifyHelpDeskTickets()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="VerifyHelpDeskTickets()[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3]" name="VerifyHelpDeskTickets" duration-ms="21239" started-at="2022-03-23T17:43:00 IST" finished-at="2022-03-23T17:43:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHelpDeskTickets -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3]" name="testCleanUp" is-config="true" duration-ms="556" started-at="2022-03-23T17:43:22 IST" finished-at="2022-03-23T17:43:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHelpDeskTickets status=SUCCESS method=HelpDeskTicketsTest.VerifyHelpDeskTickets()[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3]" name="extentReportAfterMethod" is-config="true" duration-ms="191" started-at="2022-03-23T17:43:22 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:43:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHelpDeskTickets status=SUCCESS method=HelpDeskTicketsTest.VerifyHelpDeskTickets()[pri:0, instance:HelixSenseTests.HelpDeskTicketsTest@1cd19b3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskTicketsTest.VerifyHelpDeskTickets()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.HelpDeskTicketsTest -->
+    </test> <!-- HelpDeskTicketsTest -->
+    <test name="RaiseATicketForAssetTest" duration-ms="45456" started-at="2022-03-23T17:43:22 IST" finished-at="2022-03-23T17:44:08 IST">
+      <class name="HelixSenseTests.RaiseATicketForAssetTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:43:22 IST" finished-at="2022-03-23T17:43:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:43:22 IST" finished-at="2022-03-23T17:43:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.RaiseATicketForAssetTest.verifyRaiseaTicketForAsset() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286]" name="testSetup" is-config="true" duration-ms="10004" started-at="2022-03-23T17:43:22 IST" finished-at="2022-03-23T17:43:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.RaiseATicketForAssetTest.verifyRaiseaTicketForAsset() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyRaiseaTicketForAsset()[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286]" name="verifyRaiseaTicketForAsset" duration-ms="34652" started-at="2022-03-23T17:43:32 IST" finished-at="2022-03-23T17:44:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRaiseaTicketForAsset -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286]" name="testCleanUp" is-config="true" duration-ms="595" started-at="2022-03-23T17:44:07 IST" finished-at="2022-03-23T17:44:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRaiseaTicketForAsset status=SUCCESS method=RaiseATicketForAssetTest.verifyRaiseaTicketForAsset()[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286]" name="extentReportAfterMethod" is-config="true" duration-ms="199" started-at="2022-03-23T17:44:08 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:44:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRaiseaTicketForAsset status=SUCCESS method=RaiseATicketForAssetTest.verifyRaiseaTicketForAsset()[pri:0, instance:HelixSenseTests.RaiseATicketForAssetTest@d59286] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.RaiseATicketForAssetTest.verifyRaiseaTicketForAsset() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.RaiseATicketForAssetTest -->
+    </test> <!-- RaiseATicketForAssetTest -->
+    <test name="IncidentRaiseTicketByLocationTest" duration-ms="60385" started-at="2022-03-23T17:44:08 IST" finished-at="2022-03-23T17:45:08 IST">
+      <class name="HelixSenseTests.IncidentRaiseTicketByLocationTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:44:08 IST" finished-at="2022-03-23T17:44:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:44:08 IST" finished-at="2022-03-23T17:44:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.IncidentRaiseTicketByLocationTest.verifyIncidentManagementRaiseTicket() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659]" name="testSetup" is-config="true" duration-ms="9850" started-at="2022-03-23T17:44:08 IST" finished-at="2022-03-23T17:44:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.IncidentRaiseTicketByLocationTest.verifyIncidentManagementRaiseTicket() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659]" name="verifyIncidentManagementRaiseTicket" duration-ms="49725" started-at="2022-03-23T17:44:18 IST" finished-at="2022-03-23T17:45:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncidentManagementRaiseTicket -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659]" name="testCleanUp" is-config="true" duration-ms="590" started-at="2022-03-23T17:45:07 IST" finished-at="2022-03-23T17:45:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIncidentManagementRaiseTicket status=SUCCESS method=IncidentRaiseTicketByLocationTest.verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659]" name="extentReportAfterMethod" is-config="true" duration-ms="213" started-at="2022-03-23T17:45:08 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:45:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIncidentManagementRaiseTicket status=SUCCESS method=IncidentRaiseTicketByLocationTest.verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketByLocationTest@194d659] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.IncidentRaiseTicketByLocationTest.verifyIncidentManagementRaiseTicket() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.IncidentRaiseTicketByLocationTest -->
+    </test> <!-- IncidentRaiseTicketByLocationTest -->
+    <test name="HelpdeskRaiseTicketByLocationTest" duration-ms="41575" started-at="2022-03-23T17:45:08 IST" finished-at="2022-03-23T17:45:50 IST">
+      <class name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:45:08 IST" finished-at="2022-03-23T17:45:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852]" name="testSetup" is-config="true" duration-ms="9776" started-at="2022-03-23T17:45:08 IST" finished-at="2022-03-23T17:45:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:45:08 IST" finished-at="2022-03-23T17:45:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852]" name="verifyHelpdeskRaiseTicketByLocation" duration-ms="30939" started-at="2022-03-23T17:45:18 IST" finished-at="2022-03-23T17:45:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpdeskRaiseTicketByLocation -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852]" name="testCleanUp" is-config="true" duration-ms="615" started-at="2022-03-23T17:45:49 IST" finished-at="2022-03-23T17:45:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpdeskRaiseTicketByLocation status=SUCCESS method=HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852]" name="extentReportAfterMethod" is-config="true" duration-ms="240" started-at="2022-03-23T17:45:50 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:45:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpdeskRaiseTicketByLocation status=SUCCESS method=HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation()[pri:0, instance:HelixSenseTests.HelpdeskRaiseTicketByLocationTest@103f852] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpdeskRaiseTicketByLocationTest.verifyHelpdeskRaiseTicketByLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.HelpdeskRaiseTicketByLocationTest -->
+    </test> <!-- HelpdeskRaiseTicketByLocationTest -->
+    <test name="Inbound verification with employee" duration-ms="105588" started-at="2022-03-23T17:45:50 IST" finished-at="2022-03-23T17:47:35 IST">
+      <class name="HelixSenseTests.AddInboundMailWithEmployeeTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:45:50 IST" finished-at="2022-03-23T17:45:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:45:50 IST" finished-at="2022-03-23T17:45:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyAddInboundMailWithEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="testSetup" is-config="true" duration-ms="8771" started-at="2022-03-23T17:45:50 IST" finished-at="2022-03-23T17:45:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyAddInboundMailWithEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAddInboundMailWithEmployee()[pri:1, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="verifyAddInboundMailWithEmployee" duration-ms="48876" started-at="2022-03-23T17:45:59 IST" finished-at="2022-03-23T17:46:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddInboundMailWithEmployee -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="testCleanUp" is-config="true" duration-ms="579" started-at="2022-03-23T17:46:47 IST" finished-at="2022-03-23T17:46:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddInboundMailWithEmployee status=SUCCESS method=AddInboundMailWithEmployeeTest.verifyAddInboundMailWithEmployee()[pri:1, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportAfterMethod" is-config="true" duration-ms="194" started-at="2022-03-23T17:46:48 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:46:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddInboundMailWithEmployee status=SUCCESS method=AddInboundMailWithEmployeeTest.verifyAddInboundMailWithEmployee()[pri:1, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyAddInboundMailWithEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:46:48 IST" finished-at="2022-03-23T17:46:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyWhetherInboundisCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="testSetup" is-config="true" duration-ms="9782" started-at="2022-03-23T17:46:48 IST" finished-at="2022-03-23T17:46:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyWhetherInboundisCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyWhetherInboundisCreated()[pri:2, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="verifyWhetherInboundisCreated" duration-ms="8270" started-at="2022-03-23T17:46:58 IST" finished-at="2022-03-23T17:47:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherInboundisCreated -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="testCleanUp" is-config="true" duration-ms="583" started-at="2022-03-23T17:47:06 IST" finished-at="2022-03-23T17:47:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherInboundisCreated status=SUCCESS method=AddInboundMailWithEmployeeTest.verifyWhetherInboundisCreated()[pri:2, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportAfterMethod" is-config="true" duration-ms="208" started-at="2022-03-23T17:47:07 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:47:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherInboundisCreated status=SUCCESS method=AddInboundMailWithEmployeeTest.verifyWhetherInboundisCreated()[pri:2, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyWhetherInboundisCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:47:07 IST" finished-at="2022-03-23T17:47:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyChangeStatusRegistrytoDelivery() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="testSetup" is-config="true" duration-ms="8597" started-at="2022-03-23T17:47:07 IST" finished-at="2022-03-23T17:47:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyChangeStatusRegistrytoDelivery() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyChangeStatusRegistrytoDelivery()[pri:3, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="verifyChangeStatusRegistrytoDelivery" duration-ms="18927" started-at="2022-03-23T17:47:16 IST" finished-at="2022-03-23T17:47:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangeStatusRegistrytoDelivery -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="testCleanUp" is-config="true" duration-ms="558" started-at="2022-03-23T17:47:35 IST" finished-at="2022-03-23T17:47:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChangeStatusRegistrytoDelivery status=SUCCESS method=AddInboundMailWithEmployeeTest.verifyChangeStatusRegistrytoDelivery()[pri:3, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35]" name="extentReportAfterMethod" is-config="true" duration-ms="221" started-at="2022-03-23T17:47:35 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:47:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChangeStatusRegistrytoDelivery status=SUCCESS method=AddInboundMailWithEmployeeTest.verifyChangeStatusRegistrytoDelivery()[pri:3, instance:HelixSenseTests.AddInboundMailWithEmployeeTest@1a51a35] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithEmployeeTest.verifyChangeStatusRegistrytoDelivery() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AddInboundMailWithEmployeeTest -->
+    </test> <!-- Inbound verification with employee -->
+    <test name="Inbound verification with department" duration-ms="55898" started-at="2022-03-23T17:47:35 IST" finished-at="2022-03-23T17:48:31 IST">
+      <class name="HelixSenseTests.AddInboundMailWithDepartmentTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:47:35 IST" finished-at="2022-03-23T17:47:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:47:35 IST" finished-at="2022-03-23T17:47:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithDepartmentTest.verifyAddInboundMailWithDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc]" name="testSetup" is-config="true" duration-ms="9702" started-at="2022-03-23T17:47:35 IST" finished-at="2022-03-23T17:47:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithDepartmentTest.verifyAddInboundMailWithDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAddInboundMailWithDepartment()[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc]" name="verifyAddInboundMailWithDepartment" duration-ms="45347" started-at="2022-03-23T17:47:45 IST" finished-at="2022-03-23T17:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddInboundMailWithDepartment -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc]" name="testCleanUp" is-config="true" duration-ms="624" started-at="2022-03-23T17:48:30 IST" finished-at="2022-03-23T17:48:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddInboundMailWithDepartment status=SUCCESS method=AddInboundMailWithDepartmentTest.verifyAddInboundMailWithDepartment()[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc]" name="extentReportAfterMethod" is-config="true" duration-ms="215" started-at="2022-03-23T17:48:31 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:48:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddInboundMailWithDepartment status=SUCCESS method=AddInboundMailWithDepartmentTest.verifyAddInboundMailWithDepartment()[pri:0, instance:HelixSenseTests.AddInboundMailWithDepartmentTest@4041cc] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddInboundMailWithDepartmentTest.verifyAddInboundMailWithDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AddInboundMailWithDepartmentTest -->
+    </test> <!-- Inbound verification with department -->
+    <test name="Outbound verification with employee" duration-ms="136864" started-at="2022-03-23T17:48:31 IST" finished-at="2022-03-23T17:50:48 IST">
+      <class name="HelixSenseTests.AddOutboundMailWithDepartmentTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:48:31 IST" finished-at="2022-03-23T17:48:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:48:31 IST" finished-at="2022-03-23T17:48:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithDepartmentTest.verifyAddOutboundMailWithDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b]" name="testSetup" is-config="true" duration-ms="9694" started-at="2022-03-23T17:48:31 IST" finished-at="2022-03-23T17:48:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithDepartmentTest.verifyAddOutboundMailWithDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAddOutboundMailWithDepartment()[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b]" name="verifyAddOutboundMailWithDepartment" duration-ms="126420" started-at="2022-03-23T17:48:41 IST" finished-at="2022-03-23T17:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddOutboundMailWithDepartment -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b]" name="testCleanUp" is-config="true" duration-ms="497" started-at="2022-03-23T17:50:47 IST" finished-at="2022-03-23T17:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddOutboundMailWithDepartment status=SUCCESS method=AddOutboundMailWithDepartmentTest.verifyAddOutboundMailWithDepartment()[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b]" name="extentReportAfterMethod" is-config="true" duration-ms="240" started-at="2022-03-23T17:50:48 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddOutboundMailWithDepartment status=SUCCESS method=AddOutboundMailWithDepartmentTest.verifyAddOutboundMailWithDepartment()[pri:0, instance:HelixSenseTests.AddOutboundMailWithDepartmentTest@1a18f1b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithDepartmentTest.verifyAddOutboundMailWithDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AddOutboundMailWithDepartmentTest -->
+    </test> <!-- Outbound verification with employee -->
+    <test name="Outbound verification with department" duration-ms="174886" started-at="2022-03-23T17:50:48 IST" finished-at="2022-03-23T17:53:43 IST">
+      <class name="HelixSenseTests.AddOutboundMailWithEmployeeTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:50:48 IST" finished-at="2022-03-23T17:50:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:50:48 IST" finished-at="2022-03-23T17:50:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyAddOutboundMailWithEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="testSetup" is-config="true" duration-ms="9913" started-at="2022-03-23T17:50:48 IST" finished-at="2022-03-23T17:50:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyAddOutboundMailWithEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAddOutboundMailWithEmployee()[pri:1, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="verifyAddOutboundMailWithEmployee" duration-ms="109344" started-at="2022-03-23T17:50:58 IST" finished-at="2022-03-23T17:52:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddOutboundMailWithEmployee -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="testCleanUp" is-config="true" duration-ms="674" started-at="2022-03-23T17:52:47 IST" finished-at="2022-03-23T17:52:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddOutboundMailWithEmployee status=SUCCESS method=AddOutboundMailWithEmployeeTest.verifyAddOutboundMailWithEmployee()[pri:1, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportAfterMethod" is-config="true" duration-ms="255" started-at="2022-03-23T17:52:48 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:52:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddOutboundMailWithEmployee status=SUCCESS method=AddOutboundMailWithEmployeeTest.verifyAddOutboundMailWithEmployee()[pri:1, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyAddOutboundMailWithEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="testSetup" is-config="true" duration-ms="10527" started-at="2022-03-23T17:52:48 IST" finished-at="2022-03-23T17:52:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyWhetherOutboundisCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:52:48 IST" finished-at="2022-03-23T17:52:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyWhetherOutboundisCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="verifyWhetherOutboundisCreated()[pri:2, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="verifyWhetherOutboundisCreated" duration-ms="8169" started-at="2022-03-23T17:52:59 IST" finished-at="2022-03-23T17:53:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherOutboundisCreated -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="testCleanUp" is-config="true" duration-ms="603" started-at="2022-03-23T17:53:07 IST" finished-at="2022-03-23T17:53:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherOutboundisCreated status=SUCCESS method=AddOutboundMailWithEmployeeTest.verifyWhetherOutboundisCreated()[pri:2, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportAfterMethod" is-config="true" duration-ms="203" started-at="2022-03-23T17:53:08 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:53:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherOutboundisCreated status=SUCCESS method=AddOutboundMailWithEmployeeTest.verifyWhetherOutboundisCreated()[pri:2, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyWhetherOutboundisCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:53:08 IST" finished-at="2022-03-23T17:53:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyChangeStatusReadytoDispatch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="testSetup" is-config="true" duration-ms="9740" started-at="2022-03-23T17:53:08 IST" finished-at="2022-03-23T17:53:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyChangeStatusReadytoDispatch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyChangeStatusReadytoDispatch()[pri:3, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="verifyChangeStatusReadytoDispatch" duration-ms="24504" started-at="2022-03-23T17:53:18 IST" finished-at="2022-03-23T17:53:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangeStatusReadytoDispatch -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="testCleanUp" is-config="true" duration-ms="677" started-at="2022-03-23T17:53:42 IST" finished-at="2022-03-23T17:53:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChangeStatusReadytoDispatch status=SUCCESS method=AddOutboundMailWithEmployeeTest.verifyChangeStatusReadytoDispatch()[pri:3, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145]" name="extentReportAfterMethod" is-config="true" duration-ms="250" started-at="2022-03-23T17:53:43 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:53:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChangeStatusReadytoDispatch status=SUCCESS method=AddOutboundMailWithEmployeeTest.verifyChangeStatusReadytoDispatch()[pri:3, instance:HelixSenseTests.AddOutboundMailWithEmployeeTest@b87145] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AddOutboundMailWithEmployeeTest.verifyChangeStatusReadytoDispatch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AddOutboundMailWithEmployeeTest -->
+    </test> <!-- Outbound verification with department -->
+    <test name="Asset Registry Actions" duration-ms="106205" started-at="2022-03-23T17:53:43 IST" finished-at="2022-03-23T17:55:29 IST">
+      <class name="HelixSenseTests.AssetRegistryActionsTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:53:43 IST" finished-at="2022-03-23T17:53:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportBeforeMethod" is-config="true" duration-ms="2" started-at="2022-03-23T17:53:43 IST" finished-at="2022-03-23T17:53:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryActions() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testSetup" is-config="true" duration-ms="9386" started-at="2022-03-23T17:53:43 IST" finished-at="2022-03-23T17:53:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryActions() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAssetRegistryActions()[pri:1, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="verifyAssetRegistryActions" duration-ms="20998" started-at="2022-03-23T17:53:52 IST" finished-at="2022-03-23T17:54:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryActions -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testCleanUp" is-config="true" duration-ms="569" started-at="2022-03-23T17:54:13 IST" finished-at="2022-03-23T17:54:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryActions status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryActions()[pri:1, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportAfterMethod" is-config="true" duration-ms="223" started-at="2022-03-23T17:54:14 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:54:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryActions status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryActions()[pri:1, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryActions() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:54:14 IST" finished-at="2022-03-23T17:54:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryStoreWareHouse() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testSetup" is-config="true" duration-ms="9679" started-at="2022-03-23T17:54:14 IST" finished-at="2022-03-23T17:54:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryStoreWareHouse() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAssetRegistryStoreWareHouse()[pri:2, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="verifyAssetRegistryStoreWareHouse" duration-ms="15026" started-at="2022-03-23T17:54:24 IST" finished-at="2022-03-23T17:54:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryStoreWareHouse -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testCleanUp" is-config="true" duration-ms="563" started-at="2022-03-23T17:54:39 IST" finished-at="2022-03-23T17:54:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryStoreWareHouse status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryStoreWareHouse()[pri:2, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportAfterMethod" is-config="true" duration-ms="218" started-at="2022-03-23T17:54:40 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:54:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryStoreWareHouse status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryStoreWareHouse()[pri:2, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryStoreWareHouse() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:54:40 IST" finished-at="2022-03-23T17:54:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryBreakdown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testSetup" is-config="true" duration-ms="8724" started-at="2022-03-23T17:54:40 IST" finished-at="2022-03-23T17:54:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryBreakdown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAssetRegistryBreakdown()[pri:3, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="verifyAssetRegistryBreakdown" duration-ms="15154" started-at="2022-03-23T17:54:48 IST" finished-at="2022-03-23T17:55:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryBreakdown -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testCleanUp" is-config="true" duration-ms="616" started-at="2022-03-23T17:55:04 IST" finished-at="2022-03-23T17:55:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryBreakdown status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryBreakdown()[pri:3, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportAfterMethod" is-config="true" duration-ms="221" started-at="2022-03-23T17:55:04 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:55:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryBreakdown status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryBreakdown()[pri:3, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryBreakdown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testSetup" is-config="true" duration-ms="9858" started-at="2022-03-23T17:55:04 IST" finished-at="2022-03-23T17:55:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryScrap() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:55:04 IST" finished-at="2022-03-23T17:55:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryScrap() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="verifyAssetRegistryScrap()[pri:4, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="verifyAssetRegistryScrap" duration-ms="14184" started-at="2022-03-23T17:55:14 IST" finished-at="2022-03-23T17:55:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryScrap -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="testCleanUp" is-config="true" duration-ms="567" started-at="2022-03-23T17:55:29 IST" finished-at="2022-03-23T17:55:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryScrap status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryScrap()[pri:4, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c]" name="extentReportAfterMethod" is-config="true" duration-ms="197" started-at="2022-03-23T17:55:29 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:55:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryScrap status=SUCCESS method=AssetRegistryActionsTest.verifyAssetRegistryScrap()[pri:4, instance:HelixSenseTests.AssetRegistryActionsTest@27c60c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryActionsTest.verifyAssetRegistryScrap() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AssetRegistryActionsTest -->
+    </test> <!-- Asset Registry Actions -->
+    <test name="Visitor Management" duration-ms="19641" started-at="2022-03-23T17:55:29 IST" finished-at="2022-03-23T17:55:49 IST">
+      <class name="HelixSenseTests.VisitorManagamentCheckInTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:55:29 IST" finished-at="2022-03-23T17:55:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:55:29 IST" finished-at="2022-03-23T17:55:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.VisitorManagamentCheckInTest.verifyVisitorCheckIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083]" name="testSetup" is-config="true" duration-ms="9745" started-at="2022-03-23T17:55:29 IST" finished-at="2022-03-23T17:55:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.VisitorManagamentCheckInTest.verifyVisitorCheckIn()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyVisitorCheckIn()[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083]" name="verifyVisitorCheckIn" duration-ms="9099" started-at="2022-03-23T17:55:39 IST" finished-at="2022-03-23T17:55:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVisitorCheckIn -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083]" name="testCleanUp" is-config="true" duration-ms="543" started-at="2022-03-23T17:55:48 IST" finished-at="2022-03-23T17:55:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVisitorCheckIn status=SUCCESS method=VisitorManagamentCheckInTest.verifyVisitorCheckIn()[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083]" name="extentReportAfterMethod" is-config="true" duration-ms="246" started-at="2022-03-23T17:55:49 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:55:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVisitorCheckIn status=SUCCESS method=VisitorManagamentCheckInTest.verifyVisitorCheckIn()[pri:0, instance:HelixSenseTests.VisitorManagamentCheckInTest@f75083] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.VisitorManagamentCheckInTest.verifyVisitorCheckIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.VisitorManagamentCheckInTest -->
+    </test> <!-- Visitor Management -->
+    <test name="Work Order" duration-ms="18676" started-at="2022-03-23T17:55:49 IST" finished-at="2022-03-23T17:56:08 IST">
+      <class name="HelixSenseTests.WorkOrderTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:55:49 IST" finished-at="2022-03-23T17:55:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:55:49 IST" finished-at="2022-03-23T17:55:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.WorkOrderTest.verifyWorkOrderModule() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34]" name="testSetup" is-config="true" duration-ms="8702" started-at="2022-03-23T17:55:49 IST" finished-at="2022-03-23T17:55:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.WorkOrderTest.verifyWorkOrderModule() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LFMBYDSGYXDQCIJF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyWorkOrderModule()[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34]" name="verifyWorkOrderModule" duration-ms="9162" started-at="2022-03-23T17:55:58 IST" finished-at="2022-03-23T17:56:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkOrderModule -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34]" name="testCleanUp" is-config="true" duration-ms="595" started-at="2022-03-23T17:56:07 IST" finished-at="2022-03-23T17:56:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkOrderModule status=SUCCESS method=WorkOrderTest.verifyWorkOrderModule()[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34]" name="extentReportAfterMethod" is-config="true" duration-ms="209" started-at="2022-03-23T17:56:07 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:56:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkOrderModule status=SUCCESS method=WorkOrderTest.verifyWorkOrderModule()[pri:0, instance:HelixSenseTests.WorkOrderTest@17acb34] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.WorkOrderTest.verifyWorkOrderModule() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.WorkOrderTest -->
+    </test> <!-- Work Order -->
+    <test name="ValidateQRCodeTest" duration-ms="56773" started-at="2022-03-23T17:56:08 IST" finished-at="2022-03-23T17:57:04 IST">
+      <class name="HelixSenseTests.ValidateQRCodeTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T17:56:08 IST" finished-at="2022-03-23T17:56:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T17:56:08 IST" finished-at="2022-03-23T17:56:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.ValidateQRCodeTest.verifyQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd]" name="testSetup" is-config="true" duration-ms="25557" started-at="2022-03-23T17:56:08 IST" finished-at="2022-03-23T17:56:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.ValidateQRCodeTest.verifyQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyQRCode()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd]" name="verifyQRCode" duration-ms="29144" started-at="2022-03-23T17:56:33 IST" finished-at="2022-03-23T17:57:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQRCode -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd]" name="testCleanUp" is-config="true" duration-ms="1858" started-at="2022-03-23T17:57:02 IST" finished-at="2022-03-23T17:57:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQRCode status=SUCCESS method=ValidateQRCodeTest.verifyQRCode()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd]" name="extentReportAfterMethod" is-config="true" duration-ms="207" started-at="2022-03-23T17:57:04 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:57:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQRCode status=SUCCESS method=ValidateQRCodeTest.verifyQRCode()[pri:0, instance:HelixSenseTests.ValidateQRCodeTest@13e16fd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.ValidateQRCodeTest.verifyQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.ValidateQRCodeTest -->
+    </test> <!-- ValidateQRCodeTest -->
+    <test name="AssetRegistryByQRCodeTest" duration-ms="68230" started-at="2022-03-23T17:57:04 IST" finished-at="2022-03-23T17:58:13 IST">
+      <class name="HelixSenseTests.AssetRegistryByQRCodeTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:57:04 IST" finished-at="2022-03-23T17:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:57:04 IST" finished-at="2022-03-23T17:57:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByQRCodeTest.VerifyAssetRegistryByQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926]" name="testSetup" is-config="true" duration-ms="21504" started-at="2022-03-23T17:57:04 IST" finished-at="2022-03-23T17:57:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByQRCodeTest.VerifyAssetRegistryByQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="VerifyAssetRegistryByQRCode()[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926]" name="VerifyAssetRegistryByQRCode" duration-ms="44698" started-at="2022-03-23T17:57:26 IST" finished-at="2022-03-23T17:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAssetRegistryByQRCode -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926]" name="testCleanUp" is-config="true" duration-ms="1816" started-at="2022-03-23T17:58:11 IST" finished-at="2022-03-23T17:58:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAssetRegistryByQRCode status=SUCCESS method=AssetRegistryByQRCodeTest.VerifyAssetRegistryByQRCode()[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926]" name="extentReportAfterMethod" is-config="true" duration-ms="208" started-at="2022-03-23T17:58:12 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:58:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAssetRegistryByQRCode status=SUCCESS method=AssetRegistryByQRCodeTest.VerifyAssetRegistryByQRCode()[pri:0, instance:HelixSenseTests.AssetRegistryByQRCodeTest@de0926] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByQRCodeTest.VerifyAssetRegistryByQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AssetRegistryByQRCodeTest -->
+    </test> <!-- AssetRegistryByQRCodeTest -->
+    <test name="HelpDeskByQRCodeTest" duration-ms="76738" started-at="2022-03-23T17:58:13 IST" finished-at="2022-03-23T17:59:29 IST">
+      <class name="HelixSenseTests.HelpDeskByQRCodeTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:58:13 IST" finished-at="2022-03-23T17:58:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:58:13 IST" finished-at="2022-03-23T17:58:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18]" name="testSetup" is-config="true" duration-ms="21667" started-at="2022-03-23T17:58:13 IST" finished-at="2022-03-23T17:58:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyHelpDeskRaiseTicketyUsingQRCode()[pri:1, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18]" name="verifyHelpDeskRaiseTicketyUsingQRCode" duration-ms="53008" started-at="2022-03-23T17:58:34 IST" finished-at="2022-03-23T17:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpDeskRaiseTicketyUsingQRCode -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18]" name="testCleanUp" is-config="true" duration-ms="1803" started-at="2022-03-23T17:59:27 IST" finished-at="2022-03-23T17:59:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpDeskRaiseTicketyUsingQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode()[pri:1, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18]" name="extentReportAfterMethod" is-config="true" duration-ms="252" started-at="2022-03-23T17:59:29 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T17:59:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelpDeskRaiseTicketyUsingQRCode status=SUCCESS method=HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode()[pri:1, instance:HelixSenseTests.HelpDeskByQRCodeTest@1d15f18] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelpDeskByQRCodeTest.verifyHelpDeskRaiseTicketyUsingQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.HelpDeskByQRCodeTest -->
+    </test> <!-- HelpDeskByQRCodeTest -->
+    <test name="AssetRegistryByQRScrapTest" duration-ms="67897" started-at="2022-03-23T17:59:29 IST" finished-at="2022-03-23T18:00:37 IST">
+      <class name="HelixSenseTests.AssetRegistryByQRScrapTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T17:59:29 IST" finished-at="2022-03-23T17:59:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T17:59:29 IST" finished-at="2022-03-23T17:59:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByQRScrapTest.verifyAssetRegistryByScrap() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0]" name="testSetup" is-config="true" duration-ms="29231" started-at="2022-03-23T17:59:29 IST" finished-at="2022-03-23T17:59:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByQRScrapTest.verifyAssetRegistryByScrap() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAssetRegistryByScrap()[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0]" name="verifyAssetRegistryByScrap" duration-ms="36948" started-at="2022-03-23T17:59:59 IST" finished-at="2022-03-23T18:00:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryByScrap -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0]" name="testCleanUp" is-config="true" duration-ms="1485" started-at="2022-03-23T18:00:36 IST" finished-at="2022-03-23T18:00:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryByScrap status=SUCCESS method=AssetRegistryByQRScrapTest.verifyAssetRegistryByScrap()[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0]" name="extentReportAfterMethod" is-config="true" duration-ms="228" started-at="2022-03-23T18:00:37 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:00:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryByScrap status=SUCCESS method=AssetRegistryByQRScrapTest.verifyAssetRegistryByScrap()[pri:0, instance:HelixSenseTests.AssetRegistryByQRScrapTest@18314f0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.AssetRegistryByQRScrapTest.verifyAssetRegistryByScrap() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.AssetRegistryByQRScrapTest -->
+    </test> <!-- AssetRegistryByQRScrapTest -->
+    <test name="HelixSearchByQRCodeTest" duration-ms="179424" started-at="2022-03-23T18:00:37 IST" finished-at="2022-03-23T18:03:37 IST">
+      <class name="HelixSenseTests.HelixSearchByQRCodeTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T18:00:37 IST" finished-at="2022-03-23T18:00:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T18:00:37 IST" finished-at="2022-03-23T18:00:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="testSetup" is-config="true" duration-ms="20288" started-at="2022-03-23T18:00:37 IST" finished-at="2022-03-23T18:00:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyHelixSenseSearchByQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="verifyHelixSenseSearchByQR" duration-ms="36762" started-at="2022-03-23T18:00:58 IST" finished-at="2022-03-23T18:01:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelixSenseSearchByQR -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="testCleanUp" is-config="true" duration-ms="1435" started-at="2022-03-23T18:01:34 IST" finished-at="2022-03-23T18:01:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelixSenseSearchByQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportAfterMethod" is-config="true" duration-ms="203" started-at="2022-03-23T18:01:36 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:01:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHelixSenseSearchByQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyHelixSenseSearchByQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T18:01:36 IST" finished-at="2022-03-23T18:01:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyPendingWorkOrdersScanQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="testSetup" is-config="true" duration-ms="22708" started-at="2022-03-23T18:01:36 IST" finished-at="2022-03-23T18:01:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyPendingWorkOrdersScanQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyPendingWorkOrdersScanQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="verifyPendingWorkOrdersScanQR" duration-ms="31385" started-at="2022-03-23T18:01:59 IST" finished-at="2022-03-23T18:02:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingWorkOrdersScanQR -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="testCleanUp" is-config="true" duration-ms="1663" started-at="2022-03-23T18:02:30 IST" finished-at="2022-03-23T18:02:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPendingWorkOrdersScanQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyPendingWorkOrdersScanQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportAfterMethod" is-config="true" duration-ms="233" started-at="2022-03-23T18:02:32 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:02:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPendingWorkOrdersScanQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyPendingWorkOrdersScanQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyPendingWorkOrdersScanQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T18:02:32 IST" finished-at="2022-03-23T18:02:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyRaiseATicketByGlobalSearchUsingQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="testSetup" is-config="true" duration-ms="21260" started-at="2022-03-23T18:02:32 IST" finished-at="2022-03-23T18:02:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyRaiseATicketByGlobalSearchUsingQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyRaiseATicketByGlobalSearchUsingQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="verifyRaiseATicketByGlobalSearchUsingQR" duration-ms="41475" started-at="2022-03-23T18:02:53 IST" finished-at="2022-03-23T18:03:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRaiseATicketByGlobalSearchUsingQR -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="testCleanUp" is-config="true" duration-ms="1752" started-at="2022-03-23T18:03:35 IST" finished-at="2022-03-23T18:03:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRaiseATicketByGlobalSearchUsingQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyRaiseATicketByGlobalSearchUsingQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037]" name="extentReportAfterMethod" is-config="true" duration-ms="242" started-at="2022-03-23T18:03:37 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:03:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRaiseATicketByGlobalSearchUsingQR status=SUCCESS method=HelixSearchByQRCodeTest.verifyRaiseATicketByGlobalSearchUsingQR()[pri:0, instance:HelixSenseTests.HelixSearchByQRCodeTest@a90037] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.HelixSearchByQRCodeTest.verifyRaiseATicketByGlobalSearchUsingQR() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.HelixSearchByQRCodeTest -->
+    </test> <!-- HelixSearchByQRCodeTest -->
+    <test name="Helix IncidentRaiseTicketTest by QR" duration-ms="121020" started-at="2022-03-23T18:03:37 IST" finished-at="2022-03-23T18:05:38 IST">
+      <class name="HelixSenseTests.IncidentRaiseTicketTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177]" name="extentReportBeforeClass" is-config="true" duration-ms="1" started-at="2022-03-23T18:03:37 IST" finished-at="2022-03-23T18:03:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T18:03:37 IST" finished-at="2022-03-23T18:03:37 IST">
           <params>
             <param index="0">
               <value>
@@ -26,37 +2182,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportBeforeMethod -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="testSetup" is-config="true" duration-ms="21794" started-at="2022-03-23T13:06:55 IST" finished-at="2022-03-23T13:07:17 IST">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177]" name="testSetup" is-config="true" duration-ms="21161" started-at="2022-03-23T18:03:37 IST" finished-at="2022-03-23T18:03:58 IST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[public void HelixSenseTests.IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket() throws java.lang.InterruptedException]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="verifyIncidentManagementRaiseTicket" duration-ms="109178" started-at="2022-03-23T13:07:17 IST" finished-at="2022-03-23T13:09:06 IST">
+        <test-method status="PASS" signature="verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177]" name="verifyIncidentManagementRaiseTicket" duration-ms="98151" started-at="2022-03-23T18:03:58 IST" finished-at="2022-03-23T18:05:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncidentManagementRaiseTicket -->
-        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="testCleanUp" is-config="true" duration-ms="2023" started-at="2022-03-23T13:09:06 IST" finished-at="2022-03-23T13:09:08 IST">
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177]" name="testCleanUp" is-config="true" duration-ms="1470" started-at="2022-03-23T18:05:36 IST" finished-at="2022-03-23T18:05:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyIncidentManagementRaiseTicket status=SUCCESS method=IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247] output={null}]]]>
+                <![CDATA[[TestResult name=verifyIncidentManagementRaiseTicket status=SUCCESS method=IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247]" name="extentReportAfterMethod" is-config="true" duration-ms="749" started-at="2022-03-23T13:09:08 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T13:09:09 IST">
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177]" name="extentReportAfterMethod" is-config="true" duration-ms="229" started-at="2022-03-23T18:05:38 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:05:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyIncidentManagementRaiseTicket status=SUCCESS method=IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@12d3247] output={null}]]]>
+                <![CDATA[[TestResult name=verifyIncidentManagementRaiseTicket status=SUCCESS method=IncidentRaiseTicketTest.verifyIncidentManagementRaiseTicket()[pri:0, instance:HelixSenseTests.IncidentRaiseTicketTest@1df177] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -69,6 +2235,278 @@
           </reporter-output>
         </test-method> <!-- extentReportAfterMethod -->
       </class> <!-- HelixSenseTests.IncidentRaiseTicketTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Helix IncidentRaiseTicketTest by QR -->
+    <test name="SmartLogger Test" duration-ms="170127" started-at="2022-03-23T18:05:38 IST" finished-at="2022-03-23T18:08:28 IST">
+      <class name="HelixSenseTests.SmartLoggerTest">
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T18:05:38 IST" finished-at="2022-03-23T18:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportBeforeMethod" is-config="true" duration-ms="0" started-at="2022-03-23T18:05:38 IST" finished-at="2022-03-23T18:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifyAssetRegistryIsReplaced() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="testSetup" is-config="true" duration-ms="23866" started-at="2022-03-23T18:05:38 IST" finished-at="2022-03-23T18:06:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifyAssetRegistryIsReplaced() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAssetRegistryIsReplaced()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="verifyAssetRegistryIsReplaced" duration-ms="32866" started-at="2022-03-23T18:06:02 IST" finished-at="2022-03-23T18:06:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryIsReplaced -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="testCleanUp" is-config="true" duration-ms="1808" started-at="2022-03-23T18:06:35 IST" finished-at="2022-03-23T18:06:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryIsReplaced status=SUCCESS method=SmartLoggerTest.verifyAssetRegistryIsReplaced()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportAfterMethod" is-config="true" duration-ms="292" started-at="2022-03-23T18:06:36 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:06:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryIsReplaced status=SUCCESS method=SmartLoggerTest.verifyAssetRegistryIsReplaced()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifyAssetRegistryIsReplaced() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T18:06:37 IST" finished-at="2022-03-23T18:06:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifyAssetRegistryMoveToAnotherLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="testSetup" is-config="true" duration-ms="22101" started-at="2022-03-23T18:06:37 IST" finished-at="2022-03-23T18:06:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifyAssetRegistryMoveToAnotherLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyAssetRegistryMoveToAnotherLocation()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="verifyAssetRegistryMoveToAnotherLocation" duration-ms="33810" started-at="2022-03-23T18:06:59 IST" finished-at="2022-03-23T18:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssetRegistryMoveToAnotherLocation -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="testCleanUp" is-config="true" duration-ms="1599" started-at="2022-03-23T18:07:33 IST" finished-at="2022-03-23T18:07:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryMoveToAnotherLocation status=SUCCESS method=SmartLoggerTest.verifyAssetRegistryMoveToAnotherLocation()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportAfterMethod" is-config="true" duration-ms="213" started-at="2022-03-23T18:07:34 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:07:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAssetRegistryMoveToAnotherLocation status=SUCCESS method=SmartLoggerTest.verifyAssetRegistryMoveToAnotherLocation()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifyAssetRegistryMoveToAnotherLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T18:07:34 IST" finished-at="2022-03-23T18:07:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="testSetup" is-config="true" duration-ms="21229" started-at="2022-03-23T18:07:34 IST" finished-at="2022-03-23T18:07:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifySmartLoggerUsingQR()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="verifySmartLoggerUsingQR" duration-ms="30541" started-at="2022-03-23T18:07:56 IST" finished-at="2022-03-23T18:08:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySmartLoggerUsingQR -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="testCleanUp" is-config="true" duration-ms="1514" started-at="2022-03-23T18:08:26 IST" finished-at="2022-03-23T18:08:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySmartLoggerUsingQR status=SUCCESS method=SmartLoggerTest.verifySmartLoggerUsingQR()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272]" name="extentReportAfterMethod" is-config="true" duration-ms="266" started-at="2022-03-23T18:08:28 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:08:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySmartLoggerUsingQR status=SUCCESS method=SmartLoggerTest.verifySmartLoggerUsingQR()[pri:0, instance:HelixSenseTests.SmartLoggerTest@1a57272] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.SmartLoggerTest.verifySmartLoggerUsingQR()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.SmartLoggerTest -->
+    </test> <!-- SmartLogger Test -->
+    <test name="Helix mail room  by QR" duration-ms="47927" started-at="2022-03-23T18:08:28 IST" finished-at="2022-03-23T18:09:16 IST">
+      <class name="HelixSenseTests.MailRoomWithQRCodeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="beforeSuite" is-config="true" duration-ms="1497" started-at="2022-03-23T17:39:14 IST" finished-at="2022-03-23T17:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="extentReportBeforeClass()[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="extentReportBeforeClass" is-config="true" duration-ms="0" started-at="2022-03-23T18:08:28 IST" finished-at="2022-03-23T18:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeClass -->
+        <test-method status="PASS" signature="extentReportBeforeMethod(java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="extentReportBeforeMethod" is-config="true" duration-ms="1" started-at="2022-03-23T18:08:28 IST" finished-at="2022-03-23T18:08:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.MailRoomWithQRCodeTest.verifyMailRoomWithQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportBeforeMethod -->
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="testSetup" is-config="true" duration-ms="21611" started-at="2022-03-23T18:08:28 IST" finished-at="2022-03-23T18:08:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HelixSenseTests.MailRoomWithQRCodeTest.verifyMailRoomWithQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="verifyMailRoomWithQRCode()[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="verifyMailRoomWithQRCode" duration-ms="24702" started-at="2022-03-23T18:08:50 IST" finished-at="2022-03-23T18:09:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMailRoomWithQRCode -->
+        <test-method status="PASS" signature="testCleanUp(org.testng.ITestResult)[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="testCleanUp" is-config="true" duration-ms="1408" started-at="2022-03-23T18:09:14 IST" finished-at="2022-03-23T18:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMailRoomWithQRCode status=SUCCESS method=MailRoomWithQRCodeTest.verifyMailRoomWithQRCode()[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="extentReportAfterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5]" name="extentReportAfterMethod" is-config="true" duration-ms="198" started-at="2022-03-23T18:09:16 IST" depends-on-methods="HelixSenseTests.HelixSenseTestBase.testCleanUp" finished-at="2022-03-23T18:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMailRoomWithQRCode status=SUCCESS method=MailRoomWithQRCodeTest.verifyMailRoomWithQRCode()[pri:0, instance:HelixSenseTests.MailRoomWithQRCodeTest@42d7b5] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void HelixSenseTests.MailRoomWithQRCodeTest.verifyMailRoomWithQRCode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportAfterMethod -->
+      </class> <!-- HelixSenseTests.MailRoomWithQRCodeTest -->
+    </test> <!-- Helix mail room  by QR -->
+  </suite> <!-- Android-Test-Suite -->
 </testng-results>

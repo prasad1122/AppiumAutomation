@@ -68,14 +68,14 @@ public class HelixSenseTestBase {
 		extent.attachReporter(htmlReporter);
 	}
 	@BeforeMethod
-    //@Parameters({ "udid", "platformVersion"})
-	public void testSetup(Method method) throws InterruptedException, MalformedURLException {
+    @Parameters({ "udid", "platformVersion"})
+	public void testSetup(Method method,String udid,String platformVersion) throws InterruptedException, MalformedURLException {
 		logger = Logger.getLogger(this.getClass().getSimpleName());
 		logger.info("################# Starting " + method.getName() + " Test Case #################");
 		//startAppiumService(port);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554"); 
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12");
+        capabilities.setCapability(MobileCapabilityType.UDID, udid); 
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,platformVersion);
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         capabilities.setCapability(MobileCapabilityType.NO_RESET,true);

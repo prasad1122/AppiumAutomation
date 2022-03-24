@@ -50,13 +50,8 @@ public class SmartLoggerPage extends HelixsensePageBase{
 		details.click();
 		clickOnSmartLogger.click();
 		
-		clickOnQRCode.click();
-		
-		
-		
+		clickOnQRCode.click();	
 	}
-
-
 	public void enterValues() {
 		
 		editText.get(0).sendKeys("24");
@@ -74,12 +69,8 @@ public class SmartLoggerPage extends HelixsensePageBase{
 		// TODO Auto-generated method stub
 		return conformation.isDisplayed();
 	}
-
-
 	public void gotoHome() {
 		home.click();
 	}
 	
-	
-
 }

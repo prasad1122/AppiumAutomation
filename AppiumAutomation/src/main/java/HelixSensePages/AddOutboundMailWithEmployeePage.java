@@ -187,7 +187,7 @@ public class AddOutboundMailWithEmployeePage extends HelixsensePageBase {
 	}
 
 	public void clickokay() throws InterruptedException {
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		clickOnOk.click();
 	}
 

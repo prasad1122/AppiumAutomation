@@ -63,6 +63,7 @@ public class IncidentRaiseTicketPage extends HelixsensePageBase {
 		clickOnSearchqrcode.click();
 		Thread.sleep(2000);
 		clickOnAccident.click();
+		clickOnAccident.click();
 		clickOnFire.click();
 		clickOnSelect.click();
 		//clickOnFitting.click();
