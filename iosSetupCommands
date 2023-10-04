@@ -1,4 +1,4 @@
-export :ANDROID_HOME=/Users/durgaprasad/Library/Android/sdk
+export ANDROID_HOME=/Users/durgaprasad/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME=$(/usr/libexec/java_home)
 export MVN_HOME=/Users/durgaprasad/Downloads/apache-maven-3.9.4
